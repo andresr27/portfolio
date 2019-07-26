@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acerca</title>
+
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/local.css" />
+
+    <link rel="import" id="menuImport" type="text/html" href="menu.html">
+    <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>   
+</head>
+<body>
+
+    <div id="wrapper">
+        <div id="page-wrapper">
+
+            <div class="row">
+
+                <div class="col-lg-12 text-center v-center">
+
+                    <h1>Growbox.uy</h1>
+		    <p >version 0.5</p>
+
+                    <br>
+                    <br>
+                    <p class="lead">Ingresa tu email para estar al tanto de nuestras novedades !</p>
+                    <br>
+		
+                    <form class="col-lg-12">
+                        <div class="input-group" style="width: 340px; text-align: center; margin: 0 auto;">
+                            <input class="form-control input-lg" title="Confidential signup."
+                                placeholder="Ingresa tu email" type="text">
+                            <span class="input-group-btn">
+                                <button class="btn btn-lg btn-primary" type="button">OK</button></span>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+<!--
+            <div class="text-center">
+                <h1>Seguínos</h1>
+            </div>
+
+		-->
+
+            <div class="row">
+                <div class="col-lg-12 text-center v-center" style="font-size: 39pt;">
+                  <!--   <a href="#"><span class="avatar"><i class="fa fa-google-plus"></i></span></a> -->
+                  <!--   <a href="#"><span class="avatar"><i class="fa fa-linkedin"></i></span></a>  -->
+                   <!-- <a href="#"><span class="avatar"><i class="fa fa-facebook"></i></span></a> -->
+                   <!--  <a href="#"><span class="avatar"><i class="fa fa-github"></i></span></a>  -->
+                </div>
+
+            </div>
+            <!-- /.row -->
+
+        </div>
+        <!-- /#page-wrapper -->
+    </div>    
+
+	<script type="text/javascript">
+   // code
+//var doc= document.querySelector('link[rel="import"]').import;
+	var doc = document.getElementById('menuImport').import;
+// Grab DOM from doc.html's document.
+	//alert(doc);
+	var text = doc.querySelector('.includedText');
+	var wraper = document.getElementById('wrapper')
+	wraper.appendChild(text.cloneNode(true));
+	var activeLi = doc.querySelector('.active');
+	var url = window.location;
+// Will only work if string in href matches with location
+$('ul.nav a[href="'+ url +'"]').parent().addClass('active');
+
+// Will also work for relative and absolute hrefs
+$('ul.nav a').filter(function() {
+    return this.href == url;
+}).parent().addClass('active');
+</script>
+
+</body>
+</html>

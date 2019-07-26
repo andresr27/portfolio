@@ -1,0 +1,31 @@
+{
+  "id": 2,
+  "name": "LadySoft",
+  "locationName": "Virtual",
+  "status": "UNKNOWN",
+  "ipAddress": "200.22.78.142",
+  "boxType": "tipo 2",
+  "productList": [
+    {
+      "productName": "Pañuelos 10u",
+      "productDesc": "Paquete de pañuelos desechables de 10 unidades ",
+      "productPrice": 30,
+      "productStock": 6,
+      "productId": 1100
+    },
+    {
+      "productName": "Pañuelos 5u",
+      "productDesc": "Paquete de pañuelos desechables de 5 unidades ",
+      "productPrice": 20,
+      "productStock": 6,
+      "productId": 1200
+    },
+    {
+      "productName": "Pañuelos 10u",
+      "productDesc": "Paquete de pañuelos desechables de 10 unidades ",
+      "productPrice": 30,
+      "productStock": 10,
+      "productId": 1300
+    }
+  ]
+}
