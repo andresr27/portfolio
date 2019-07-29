@@ -1,0 +1,29 @@
+---
+- name: Remuevo el servicio Filebeat
+  win_service:
+    name: filebeat
+    state: absent
+
+- name: Remuevo archivos residuales
+  win_file:
+    path: C:\Filebeat
+    state: absent
+
+- name: Descargando Filebeat
+  win_get_url:
+    url: https://artifacts.elastic.co/downloads/beats/filebeat/filebeat-6.2.4-windows-x86_64.zip
+    dest: C:\filebeat.zip
+
+- name: Descomprimiendo Filebeat
+  win_unzip:
+    src: C:\filebeat.zip
+    dest: C:\Filebeat
+    creates: C:\Filebeat
+
+- name: Borrando zip de Filebeat
+  win_file:
+    path: C:\filebeat.zip
+    state: absent
+
+- name: Instalando Filebeat
+  win_shell: C:\Filebeat\filebeat-6.2.4-windows-x86_64\install-service-filebeat.ps1

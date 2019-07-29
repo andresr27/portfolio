@@ -1,0 +1,8 @@
+[local]
+localhost ansible_connection=local
+
+[widodc-cl2]
+10.68.174.222
+
+
+

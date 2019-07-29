@@ -1,0 +1,34 @@
+---
+- name: Obtener IP de VM a aprovisionar de vapp_params.ini
+  hosts: localhost
+  gather_facts: no
+  vars_files:
+    - vars/rhel_vars/vault.yml
+  tasks:
+
+    - name: "Obtener IP de VM a aprovisionar de config/vapp_params.ini"
+      add_host:
+        name: "{{ vm_ip }}"
+        groups: VMRHEL
+        ansible_connection: ssh
+        ansible_ssh_user: "{{ vm_user }}"
+        ansible_ssh_pass: "{{ vm_pass }}"
+        ansible_sudo_pass: "{{ vm_pass }}"
+
+- name: Aprovisionar RHEL 7.5 Base
+  hosts: VMRHEL
+  gather_facts: no
+  pre_tasks:
+    - name: Esperar por puerto 22
+      local_action:
+        module: wait_for
+        host: "{{ inventory_hostname }}"
+        search_regex: OpenSSH
+        port: 22
+        timeout: 30
+      become: no
+  roles:
+    - os-update
+    - zabbix-agent
+    - filebeat
+    - ossec
