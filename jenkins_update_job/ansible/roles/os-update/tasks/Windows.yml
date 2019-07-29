@@ -1,0 +1,17 @@
+---
+- name: Instalar actualizaciones de Windows
+  win_updates:
+    category_names:
+    - SecurityUpdates
+    - CriticalUpdates
+    - UpdateRollups
+    log_path: "{{ win_log_path }}"
+    reboot: yes
+
+- fetch:
+    src: "{{ win_log_path }}"
+    dest: "{{ tmp_dir }}/osUpdate"
+    flat: yes
+
+- win_shell: Remove-Item {{ win_log_path }}
+

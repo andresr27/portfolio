@@ -1,0 +1,29 @@
+---
+- name: Obtener IP de VM a aprovisionar de vapp_params.ini
+  hosts: local
+  gather_facts: no
+  vars_files:
+    - vars/windows2012_vars/vault.yml
+  tasks:
+
+    - name: "Obtener IP de VM a aprovisionar de config/vapp_params.ini"
+      add_host:
+        name: "{{ vm_ip }}"
+        groups: VMWindows2012
+        ansible_user: "{{ vm_user }}"
+        ansible_password: "{{ vm_pass }}"
+        ansible_connection: winrm
+        ansible_winrm_transport: basic
+        ansible_winrm_server_cert_validation: ignore
+
+- name: Aprovisionar Windows2012
+  hosts: VMWindows2012
+  gather_facts: no
+  pre_tasks:
+    - name: Esperar a la conexion
+      wait_for_connection:
+        timeout: 300
+  roles:
+    - os-update
+    - filebeat
+    - zabbix-agent
