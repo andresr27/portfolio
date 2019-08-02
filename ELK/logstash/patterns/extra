@@ -1,0 +1,2 @@
+JBOSSTIPO_TIME1 %{TIME:time} %{DATA:level}  \[%{DATA:logger}\] \(%{DATA:thread}\) %{GREEDYDATA:message}
+HTTPD TO=%{IPORHOST:to} FROM=%{IPORHOST:from} START=\[%{DATA:start}\] TIME=%{NUMBER:responsetime} REQUESTHOST=\"%{DATA:requesthost}\" STATUS=%{DATA:status} BYTES=%{NUMBER:bytes} ROUTE=%{DATA:route} AGENT=\"%{DATA:agent}\" URL=\"%{GREEDYDATA:url}\"

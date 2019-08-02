@@ -1,0 +1,20 @@
+filebeat.prospectors:
+- input_type: log
+  paths:
+    - /var/log/httpd22/vpn.wido.com.uy.access_log
+    - /var/log/httpd22/admin.wido.com.uy.access_log
+    - /var/log/httpd22/wS.wido.com.uy.access_log
+    
+tags: ["lua", "lbs"]
+
+field
+  beat_parse_format: HTTPD
+  beat_app: lua
+  beat_layer: apache
+  beat_env: prep
+
+fields_under_root: true
+
+output.logstash:
+  hosts: ["10.8.0.51:5044"]
+
