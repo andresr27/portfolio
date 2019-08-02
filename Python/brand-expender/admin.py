@@ -1,6 +1,7 @@
 # SAMPLE ONLY
-# CURATED
-# MVDrobotics 2014 - 
+# Non working code
+# MVDrobotics 2014 
+# Andres Renaud 2015
 # This module will control behavior of product vending
 
 import comm
