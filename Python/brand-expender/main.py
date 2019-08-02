@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-
+# Andres Renaud 2014-2017
 import kivy
 kivy.require('1.9.0')
 
@@ -224,22 +224,6 @@ class BoxAdmin(Thread):
 			print('No hay comm con arduino, status:<%s>' % self.status)
 		return self.admin
 
-#class boxClient(Thread):
-#	def __init__(self):
-#		Thread.__init__(self)
-#		self.status=1
-#		self.Cli = boxCli.init()
-#		self.Cli.deamon=True # Kill thread
-#
-#	def run(self):
-#		try:
-#			self.Cli.start() # mk thread
-#		except Exception, e:
-#			self.status=6
-#			print('No hay comm con arduino, status:<%s>' % self.status)
-#		return self.admin
-#
-
 
 class MainApp(App):
 	def build(self):
@@ -247,10 +231,8 @@ class MainApp(App):
 
 def initWork():
 	global box
-        #global cli	
 	box=BoxAdmin()
 	box.admin=box.run()
-        #boxCli.init()
         thread.start_new_thread(boxCli.init,()) 	 
 
 	MainApp().run()
