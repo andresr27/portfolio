@@ -19,53 +19,6 @@ import admin
 import boxCli
 import thread
 
-VIDEO_WIDTH			= 1130				# original 1920
-VIDEO_HEIGHT		= 635				# original 1080
-VIDEO_LEFT_MARGIN	= 100 + 500 + 100	# kv left margin + button width + inter button video
-VIDEO_TOP_MARGIN	= 90				# kv top margin
-VIDEO_SOURCE		= 'video/video.mp4'
-HIDE_INFO			= - 635
-SHOW_INFO			= 1080 - 635 - 100
-INIT_MONEY			= 0
-IMG_BUTTON_RETIRE	= [
-'imagenes/boton-retira-protectores.png',
-'imagenes/boton-retira-tampon.png',
-'imagenes/boton-retira-toallas.png'
-]
-IMG_BUTTON			= [
-'imagenes/boton-protectores.png',
-'imagenes/boton-tampon.png',
-'imagenes/boton-toallas.png'
-]
-IMG_BUTTON_MONTO	= [
-'imagenes/boton-monto-protectores.png',
-'imagenes/boton-monto-tampon.png',
-'imagenes/boton-monto-toallas.png'
-]
-IMG_BUTTON_STOCK	= [
-'imagenes/boton-stock-protectores.png',
-'imagenes/boton-stock-tampon.png',
-'imagenes/boton-stock-toallas.png'
-]
-
-MAX_PROD    = 3
-
-#messages
-WELCOME          = 0
-DISPACHING       = 1
-NOT_MONEY        = 2
-NOT_STOCK        = 3
-COM_ERROR        = 5
-TAKE_PROD        = 6
-BLOCKED_MACHINE  = 7
-UNKNOWN_ERROR    = 8
-NO_SERVICE       = 10
-MSG_PROD_0       = 11
-MSG_PROD_1       = 12
-MSG_PROD_2       = 13
-BOX_INIT         = 14
-OUT_STOCK        = 2
-
 class StartScreen(Screen):
 	showing_info = -1
 	schedule = None
@@ -134,10 +87,6 @@ class StartScreen(Screen):
                         #print "prod_borrar" + str(i) + " cost = " + str(products[i].getCost())
                         productCost.append(products[i].getCost())	
 	
-
-
-      
-
 
         def sendStatusMsg(self):
 		 statusNum = box.admin.status 
