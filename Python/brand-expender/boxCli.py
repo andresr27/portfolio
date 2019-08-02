@@ -1,3 +1,4 @@
+# Andres Renaud 2014-2017
 #!/usr/bin/python
 import json
 import websocket
@@ -5,6 +6,7 @@ import thread
 import time
 import sys
 import admin
+
 #from  main import setBoxAdmin
 
 JSON_FILE = 'brand_Tag.json'
