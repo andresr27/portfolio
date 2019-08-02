@@ -1,5 +1,5 @@
 #!/bin/bash
-url1='http://192.168.200.1:9200/_cat/health?pretty'
+url1='http://10.8.51.1:9200/_cat/health?pretty'
 
 while true;
   do
