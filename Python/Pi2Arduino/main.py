@@ -28,24 +28,24 @@ HIDE_INFO			= - 635
 SHOW_INFO			= 1080 - 635 - 100
 INIT_MONEY			= 0
 IMG_BUTTON_RETIRE	= [
-'imagenes/boton-retira-protectores.png',
-'imagenes/boton-retira-tampon.png',
-'imagenes/boton-retira-toallas.png'
+'imagenes/boton-monto-p.png',
+'imagenes/boton-monto-t.png',
+'imagenes/boton-monto-s.png'
 ]
 IMG_BUTTON			= [
-'imagenes/boton-protectores.png',
-'imagenes/boton-tampon.png',
-'imagenes/boton-toallas.png'
+'imagenes/boton-monto-p.png',
+'imagenes/boton-monto-t.png',
+'imagenes/boton-monto-s.png'
 ]
 IMG_BUTTON_MONTO	= [
-'imagenes/boton-monto-protectores.png',
-'imagenes/boton-monto-tampon.png',
-'imagenes/boton-monto-toallas.png'
+'imagenes/boton-monto-p.png',
+'imagenes/boton-monto-t.png',
+'imagenes/boton-monto-s.png'
 ]
 IMG_BUTTON_STOCK	= [
-'imagenes/boton-stock-protectores.png',
-'imagenes/boton-stock-tampon.png',
-'imagenes/boton-stock-toallas.png'
+'imagenes/boton-stock-p.png',
+'imagenes/boton-stock-t.png',
+'imagenes/boton-stock-s.png'
 ]
 
 MAX_PROD    = 3
@@ -80,14 +80,14 @@ class StartScreen(Screen):
                 Clock.schedule_interval(self.slowCallback, 30)
 		Clock.schedule_interval(self.fastCallback, 0.5)
 		self.updateMoney()
-		
+
 	def reproducirVideo(self):
 		os.system('omxplayer --loop --no-osd -o hdmi --win "%d %d %d %d" "%s" &' %
 		(VIDEO_LEFT_MARGIN, VIDEO_TOP_MARGIN, VIDEO_LEFT_MARGIN + VIDEO_WIDTH, VIDEO_TOP_MARGIN + VIDEO_HEIGHT, VIDEO_SOURCE))
-	
+
 	def detenerVideo(self):
 		os.system('kill $(pgrep omxplayer) &')
-        
+
         def buttonHandle(instance,self,button):
 		print button
 		print instance.button_enable[button]
@@ -114,17 +114,17 @@ class StartScreen(Screen):
 		instance.ids['info_%d' % button].pos[1] = SHOW_INFO
 		instance.showing_info = button
 		instance.schedule = Clock.schedule_once(instance.hideInfo, 10)
-	
+
 	def hideInfo(self, *args):
-		self.ids['info_%d' % self.showing_info].pos[1] = HIDE_INFO
+		self.ids['info_%d' % self.showing_info]CURATED.pos[1] = HIDE_INFO
 		self.showing_info = -1
 		self.reproducirVideo()
-		
+
 	def updateMoney(self):
 		self.ids.money_count.text='Ha ingresado: $ '+str(self.money)
 
 
-	
+
         def setBoxAdmin(self,money,productStock,productCost):
 
 		box.admin.money.setMoney(money)
@@ -132,19 +132,19 @@ class StartScreen(Screen):
                         #print "prod_borrar" + str(i) + " stock = " + str(products[i].getStock())
                         productStock.append(products[i].getStock())
                         #print "prod_borrar" + str(i) + " cost = " + str(products[i].getCost())
-                        productCost.append(products[i].getCost())	
-	
+                        productCost.append(products[i].getCost())
 
 
-      
+
+
 
 
         def sendStatusMsg(self):
-		 statusNum = box.admin.status 
+		 statusNum = box.admin.status
                  productStock = []
                  productCost = []
 		 # Status must match known statuses in webSocketServer box Class
-                 # else will be Unknown 
+                 # else will be Unknown
                  # Should be moved to boxCli
  		 if statusNum == 0 :
 		         status = "OK"
@@ -153,11 +153,11 @@ class StartScreen(Screen):
 		 elif statusNum == 7 :
 		         status = "BLOCKED_MACHINE"
    		 else:
-		         status = "WARN"	
+		         status = "WARN"
                          print "Unhandled message type"
-                 
+
                  money = box.admin.money.getMoney()
-                 products= box.admin.products.getProducts() 
+                 products= box.admin.products.getProducts()
 		 for i in range (box.admin.products.getLength()):
 		         #print "prod_borrar" + str(i) + " stock = " + str(products[i].getStock())
 		         productStock.append(products[i].getStock())
@@ -166,28 +166,28 @@ class StartScreen(Screen):
 
                  thread.start_new_thread(boxCli.sendBoxStatus,(status,money,productStock,productCost))
                  #boxCli.sendBoxStatus(box.admin)
- 
+
 
 	def slowCallback(self,dt):
                 self.sendStatusMsg()   #FIXME
-		
-              	
+
+
 	def fastCallback(self,dt):
 		money=box.admin.money.getMoney()
 		if box.admin.status == BLOCKED_MACHINE:
 			return
-		         	
+
 		if self.money != money:
 			if money < self.money and self.last_pressed != -1:
 				self.ids['but_%d' % self.last_pressed].background_normal = IMG_BUTTON_RETIRE[self.last_pressed]
 				self.ids['but_%d' % self.last_pressed].background_down = IMG_BUTTON_RETIRE[self.last_pressed]
 				if self.seted_reenable:
-					self.reenable.cancel()
+					self.reenable.cancel()CURATED
 				Clock.schedule_once(self.backToWork,3)
 				# puede retirar el producto
 			self.money = money
 			self.updateMoney()
-		
+
 		for i in range(3):
 			if self.last_pressed == -1 and box.admin.products.getProduct(i).getStock() != OUT_STOCK:
 				self.ids['but_%d' % i].background_normal = IMG_BUTTON[i]
@@ -202,8 +202,8 @@ class StartScreen(Screen):
 				if box.admin.products.getProduct(i).getStock() == OUT_STOCK:
 					self.ids['but_%d' % i].background_normal = IMG_BUTTON_STOCK[i]
 					self.ids['but_%d' % i].background_down = IMG_BUTTON_STOCK[i]
-					# hacer algo para que el usuario note que no podrá comprar el producto
-										
+
+
 	def backToWork(self,dt):
 		self.last_pressed = -1
 		self.updateMoney()
@@ -224,21 +224,6 @@ class BoxAdmin(Thread):
 			print('No hay comm con arduino, status:<%s>' % self.status)
 		return self.admin
 
-#class boxClient(Thread):
-#	def __init__(self):
-#		Thread.__init__(self)
-#		self.status=1
-#		self.Cli = boxCli.init()
-#		self.Cli.deamon=True # Kill thread
-#
-#	def run(self):
-#		try:
-#			self.Cli.start() # mk thread
-#		except Exception, e:
-#			self.status=6
-#			print('No hay comm con arduino, status:<%s>' % self.status)
-#		return self.admin
-#
 
 
 class MainApp(App):
@@ -247,13 +232,13 @@ class MainApp(App):
 
 def initWork():
 	global box
-        #global cli	
+        #global cli
 	box=BoxAdmin()
 	box.admin=box.run()
         #boxCli.init()
-        thread.start_new_thread(boxCli.init,()) 	 
+        thread.start_new_thread(boxCli.init,())
 
 	MainApp().run()
-		
+
 if __name__ == '__main__':
 	initWork()

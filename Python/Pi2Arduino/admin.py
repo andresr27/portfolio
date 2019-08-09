@@ -1,6 +1,6 @@
 # SAMPLE ONLY
-# CURATED
-# MVDrobotics 2014 - 
+# Andrés Renaud 2015-2017
+# MVDrobotics 2014 -
 # This module will control behavior of product vending
 
 import comm
@@ -8,7 +8,7 @@ import screen
 import errno
 import threading
 import time
-import os					
+import os
 from threading import Thread
 
 
@@ -53,7 +53,7 @@ class Admin(Thread):
 class Money():
 
     def __init__(self):
-        self.money = 1000
+        self.money = 0
 
     def setMoney(self, money):
         self.money = money
@@ -61,5 +61,4 @@ class Money():
     def getMoney (self):
         return self.money
 
-# CURATED
-
+# Content eliminated to protect a friend's Bussiness

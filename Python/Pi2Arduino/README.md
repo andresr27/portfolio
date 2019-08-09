@@ -1,6 +1,11 @@
-# Brand
+# Branded UI based on Kivy
+# Vending Machine Python Client
 
-SAMPLE CODE ONLY!!!
+SAMPLE CODE ONLY!
+
+A working version of this code of the python client sending data from arduino to the JAVA Backend it's on it's way
+
+
 
 =======
 
@@ -22,7 +27,7 @@ Los archivos deben ser únicos para los distintos depositivos conectados al serv
 
 
 
-CORRER BOX UI 
+CORRER BOX UI
 
 Edit /etc/hosts y añadir:
 
@@ -30,7 +35,7 @@ Edit /etc/hosts y añadir:
 10.8.0.1 ws.brand.com.uy
 10.8.0.1 admin.brand.com.uy
 
-> git clone 
+> git clone
 > cd kotex
 > python main.py
 

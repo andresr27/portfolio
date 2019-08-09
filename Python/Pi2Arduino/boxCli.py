@@ -1,3 +1,7 @@
+############### boxCli.py ########################
+# webservice python client for expender admin SW #
+##################################################
+
 #!/usr/bin/python
 import json
 import websocket
@@ -9,8 +13,6 @@ import admin
 
 JSON_FILE = 'brand_Tag.json'
 
-#URI = "ws://localhost:8025/websockets/brand"
-#URI = "ws://admin.wido.com.uy:8025/websockets/brand"
 URI = "ws://ws.brand.com.uy:8025/websockets/brand"
 
 
@@ -76,7 +78,7 @@ def sendStatusMessage(box):
     send_message(m)
 
 
-        
+
 
 def on_message(ws, message):
     #print "Received msg: " + message
@@ -137,14 +139,12 @@ def setBoxAdmin():
     with open(JSON_FILE) as data_file:
         mBox = json.loads(data_file.read(), object_hook=as_box)
     money=mBox.money
-    for i in range(3): #FIXME 
-        print "Setting Admin Stock " + str(mBox.productList[i]["productStock"]) 	
+    for i in range(3): #FIXME
+        print "Setting Admin Stock " + str(mBox.productList[i]["productStock"])
         productStock.append(mBox.productList[i]["productStock"])
     	productCost.append(mBox.productList[i]["productPrice"])
-   
+
     setBoxAdmin(money,productStock,productCost)
-      
-        
 
 def sendBoxStatus(status,money,productStock,productCost):
     global mBox
@@ -156,7 +156,7 @@ def sendBoxStatus(status,money,productStock,productCost):
         print "Cli prod Stock " + str(productStock[i])
         mBox.productList[i-1]["productStock"] = productStock[i]
         # mBox.productList[i].productStock = productStock[i]
-	
+
 	print "Cli prod Cost " + str(productCost[i])
         mBox.productList[i-1]["productPrice"] = productCost[i]
 	#mBox.productList[i].productPrice = productCost[i]
@@ -206,7 +206,7 @@ def startClient():
     ws.run_forever()
 
 def init():
-    
+
     global mBox
     with open(JSON_FILE) as data_file:
         mBox = json.loads(data_file.read(), object_hook=as_box)
@@ -226,4 +226,3 @@ def init():
 
 if __name__ == "__main__":
     init()
-

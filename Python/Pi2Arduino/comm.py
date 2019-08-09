@@ -1,5 +1,5 @@
 # SAMPLE ONLY
-# CURATED
+# Andres Renaud 2015
 # MVDrobotics 2014
 # This module will control communication beween raspberry pi and MVDrobotics Arduino Shield (mvdShield)
 
@@ -9,7 +9,7 @@ SPEED      = 115200
 TIMEOUT    = 1
 SYNC       = 254                  #byte de comienzo de los mensajes seriales
 ESCAPE     = 253                #byte de desambiguacion en los mensajes seriales
-BROADCAST  = 255   
+BROADCAST  = 255
 
 #ESTADOS
 BUSCAR, LEER_LARGO, LEER_MSG, CHECKSUM = range (0,4) #set automaticaly values to our state variables
@@ -21,5 +21,5 @@ import time    #SACAR!!
 import admin
 
 class Comm():
-    
+
   #CURATED
