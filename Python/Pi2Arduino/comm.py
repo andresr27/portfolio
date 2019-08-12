@@ -22,4 +22,4 @@ import admin
 
 class Comm():
 
-  #CURATED
+  #DELETED FOR NOW 
