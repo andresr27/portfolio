@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-
+# Andres Renaud 2014-2017
 import kivy
 kivy.require('1.9.0')
 
@@ -19,6 +19,7 @@ import admin
 import boxCli
 import thread
 
+<<<<<<< HEAD:Python/Pi2Arduino/main.py
 VIDEO_WIDTH			= 1130				# original 1920
 VIDEO_HEIGHT		= 635				# original 1080
 VIDEO_LEFT_MARGIN	= 100 + 500 + 100	# kv left margin + button width + inter button video
@@ -66,6 +67,8 @@ MSG_PROD_2       = 13
 BOX_INIT         = 14
 OUT_STOCK        = 2
 
+=======
+>>>>>>> 18dbe4052c48e55fb9029cee6011db6953ba73dc:Python/brand-expender/main.py
 class StartScreen(Screen):
 	showing_info = -1
 	schedule = None
@@ -136,9 +139,12 @@ class StartScreen(Screen):
 
 
 
+<<<<<<< HEAD:Python/Pi2Arduino/main.py
 
 
 
+=======
+>>>>>>> 18dbe4052c48e55fb9029cee6011db6953ba73dc:Python/brand-expender/main.py
         def sendStatusMsg(self):
 		 statusNum = box.admin.status
                  productStock = []
@@ -224,7 +230,10 @@ class BoxAdmin(Thread):
 			print('No hay comm con arduino, status:<%s>' % self.status)
 		return self.admin
 
+<<<<<<< HEAD:Python/Pi2Arduino/main.py
 
+=======
+>>>>>>> 18dbe4052c48e55fb9029cee6011db6953ba73dc:Python/brand-expender/main.py
 
 class MainApp(App):
 	def build(self):
@@ -232,11 +241,17 @@ class MainApp(App):
 
 def initWork():
 	global box
+<<<<<<< HEAD:Python/Pi2Arduino/main.py
         #global cli
 	box=BoxAdmin()
 	box.admin=box.run()
         #boxCli.init()
         thread.start_new_thread(boxCli.init,())
+=======
+	box=BoxAdmin()
+	box.admin=box.run()
+        thread.start_new_thread(boxCli.init,()) 	 
+>>>>>>> 18dbe4052c48e55fb9029cee6011db6953ba73dc:Python/brand-expender/main.py
 
 	MainApp().run()
 

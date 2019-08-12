@@ -1,0 +1,238 @@
+#Andres Renaud 2014-2017
+#:kivy 1.9
+#:set left_marg 100
+#:set bot_marg 90
+#:set inter_button_height 40
+#:set button_height 147
+#:set button_width 500
+#:set left_margin_info 100
+#:set button_info_height 226
+#:set button_info_width 226
+#:set info_height 635
+#:set info_width 1130
+
+<StartScreen>:
+    name: "start"
+    canvas.before:
+        Color:
+            rgba: 0,0,0,1 
+        Rectangle:
+            id:bck
+            pos: 0,0
+            size: 1920,1080
+    info_0: info_0
+    info_1: info_1
+    info_2: info_2
+    info_3: info_3
+    info_4: info_4
+
+    Label:
+        id:money_count
+        text_size: 600,200 #self.size
+        font_size: 28          
+        center_x: -450
+        top: -300
+        text:'La expendedora no está disponible'
+        #color:1,1,1,1
+
+    FloatLayout:
+        Button:
+            background_normal: 'imagenes/logo3.png'
+            background_down: 'imagenes/logo3.png'
+            allow_stretch: 1
+            min_state_time: 2.0
+            size_hint: None, None
+            width : 600
+            height : 444
+            pos: left_marg-60, 1080-410
+
+    FloatLayout:
+#        size: 500, 147
+        Button:
+            id:but_0
+            name:"button0"
+            background_normal: 'imagenes/boton-protectores.png'
+            background_down: 'imagenes/boton-protectores.png'
+            allow_stretch: 1
+            on_press: root.buttonHandle(self,0)
+            min_state_time: 2.0
+            size_hint: None, None #0.176 0.1205 antes, 0.295, 0.079 en la flecha     0.305, 0.1305
+            width : button_width
+            height : button_height
+            pos: left_marg, bot_marg + 2*button_height + 2*inter_button_height
+
+    FloatLayout:
+#        size: 500, 147
+        Button:
+            id:but_2
+            name:"button2"
+            allow_stretch: 1
+            background_normal: 'imagenes/boton-toallas.png'
+            background_down: 'imagenes/boton-toallas.png'
+            on_press: root.buttonHandle(self,2)
+            min_state_time: 2.0
+            size_hint: None, None
+            width : button_width
+            height : button_height
+            pos: left_marg, bot_marg + 1*button_height + 1*inter_button_height
+
+    FloatLayout:
+#        size: 500, 147
+        Button:
+            id:but_1
+            name:"button1"
+            allow_stretch: 1
+            background_normal: 'imagenes/boton-tampon.png'
+            background_down: 'imagenes/boton-tampon.png'
+            on_press: root.buttonHandle(self,1)
+            min_state_time: 2.0
+            size_hint: None, None
+            width : button_width
+            height : button_height
+            pos: left_marg, bot_marg
+
+# Botones de información
+# ---------------------------------------------------------------------------------------------
+
+    FloatLayout:
+        Button:
+            id:but_info_0
+            name:"buttoninfo0"
+            background_normal: 'imagenes/boton-toalla-normal.png'
+            background_down: 'imagenes/boton-toalla-normal.png'
+            allow_stretch: 1
+            on_press: root.buttonInfoHandle(self,0)
+            min_state_time: 2.0
+            size_hint: None, None #0.176 0.1205 antes, 0.295, 0.079 en la flecha     0.305, 0.1305
+            width : button_info_width
+            height : button_info_height
+            pos: left_marg + button_width + left_margin_info, bot_marg
+
+    FloatLayout:
+        Button:
+            id:but_info_1
+            name:"buttoninfo1"
+            allow_stretch: 1
+            background_normal: 'imagenes/boton-toalla-ultrafina.png'
+            background_down: 'imagenes/boton-toalla-ultrafina.png'
+            on_press: root.buttonInfoHandle(self,1)
+            min_state_time: 2.0
+            size_hint: None, None
+            width : button_info_width
+            height : button_info_height
+            pos: left_marg + button_width + left_margin_info + 1*button_info_width, bot_marg
+
+    FloatLayout:
+        Button:
+            id:but_info_2
+            name:"buttoninfo2"
+            allow_stretch: 1
+            background_normal: 'imagenes/boton-toalla-nocturna.png'
+            background_down: 'imagenes/boton-toalla-nocturna.png'
+            on_press: root.buttonInfoHandle(self,2)
+            min_state_time: 2.0
+            size_hint: None, None
+            width : button_info_width
+            height : button_info_height
+            pos: left_marg + button_width + left_margin_info + 2*button_info_width, bot_marg
+
+    FloatLayout:
+        Button:
+            id:but_info_3
+            name:"buttoninfo3"
+            allow_stretch: 1
+            background_normal: 'imagenes/boton-toalla-evolution.png'
+            background_down: 'imagenes/boton-toalla-evolution.png'
+            on_press: root.buttonInfoHandle(self,3)
+            min_state_time: 2.0
+            size_hint: None, None
+            width : button_info_width
+            height : button_info_height
+            pos: left_marg + button_width + left_margin_info + 3*button_info_width, bot_marg
+
+    FloatLayout:
+        Button:
+            id:but_info_4
+            name:"buttoninfo4"
+            allow_stretch: 1
+            background_normal: 'imagenes/boton-codigo-qr.png'
+            background_down: 'imagenes/boton-codigo-qr.png'
+            on_press: root.buttonInfoHandle(self,4)
+            min_state_time: 2.0
+            size_hint: None, None
+            width : button_info_width
+            height : button_info_height
+            pos: left_marg + button_width + left_margin_info + 4*button_info_width, bot_marg
+
+# Información
+# ---------------------------------------------------------------------------------------------
+
+    FloatLayout:
+        Button:
+            id: info_0
+            name: "info0"
+            background_normal: 'imagenes/info-normal.png'
+            background_down: 'imagenes/info-normal.png'
+            allow_stretch: 1
+            min_state_time: 2.0
+            size_hint: None, None
+            width : info_width
+            height : info_height
+            pos: left_marg + button_width + left_margin_info, - bot_marg - info_height
+
+    FloatLayout:
+        Button:
+            id: info_1
+            name: "info1"
+            background_normal: 'imagenes/info-ultrafina.png'
+            background_down: 'imagenes/info-ultrafina.png'
+            allow_stretch: 1
+            min_state_time: 2.0
+            size_hint: None, None
+            width : info_width
+            height : info_height
+            pos: left_marg + button_width + left_margin_info, - bot_marg - info_height
+
+    FloatLayout:
+        Button:
+            id: info_2
+            name: "info2"
+            background_normal: 'imagenes/info-nocturna.png'
+            background_down: 'imagenes/info-nocturna.png'
+            allow_stretch: 1
+            min_state_time: 2.0
+            size_hint: None, None
+            width : info_width
+            height : info_height
+            pos: left_marg + button_width + left_margin_info, - bot_marg - info_height
+
+    FloatLayout:
+        Button:
+            id: info_3
+            name: "info3"
+            background_normal: 'imagenes/info-evolution.png'
+            background_down: 'imagenes/info-evolution.png'
+            allow_stretch: 1
+            min_state_time: 2.0
+            size_hint: None, None
+            width : info_width
+            height : info_height
+            pos: left_marg + button_width + left_margin_info, - bot_marg - info_height
+
+    FloatLayout:
+        Button:
+            id: info_4
+            name: "info4"
+            background_normal: 'imagenes/info-qr.png'
+            background_down: 'imagenes/info-qr.png'
+            allow_stretch: 1
+            min_state_time: 2.0
+            size_hint: None, None
+            width : info_width
+            height : info_height
+            pos: left_marg + button_width + left_margin_info, - bot_marg - info_height
+
+#    VideoPlayer:
+#        source: './8.23.2017 09.02.47 video.mp4'
+#        state: 'play'
+#        pos: 700, 10

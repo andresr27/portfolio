@@ -1,7 +1,11 @@
+<<<<<<< HEAD:Python/Pi2Arduino/boxCli.py
 ############### boxCli.py ########################
 # webservice python client for expender admin SW #
 ##################################################
 
+=======
+# Andres Renaud 2014-2017
+>>>>>>> 18dbe4052c48e55fb9029cee6011db6953ba73dc:Python/brand-expender/boxCli.py
 #!/usr/bin/python
 import json
 import websocket
@@ -9,6 +13,7 @@ import thread
 import time
 import sys
 import admin
+
 #from  main import setBoxAdmin
 
 JSON_FILE = 'brand_Tag.json'

@@ -1,6 +1,12 @@
 # SAMPLE ONLY
+<<<<<<< HEAD:Python/Pi2Arduino/admin.py
 # Andrés Renaud 2015-2017
 # MVDrobotics 2014 -
+=======
+# Non working code
+# MVDrobotics 2014 
+# Andres Renaud 2015
+>>>>>>> 18dbe4052c48e55fb9029cee6011db6953ba73dc:Python/brand-expender/admin.py
 # This module will control behavior of product vending
 
 import comm
