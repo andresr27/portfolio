@@ -1,6 +1,6 @@
 # Portafolio.
 
-Inlcudes several documents, picures and code sniplets used in profiles or articles.
+Includes several documents, picures and code snnipets used in profiles or articles.
 It inlcudes the following categories:
 
 ## DevOps Administration.
