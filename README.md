@@ -1,22 +1,20 @@
 # Portafolio.
 
-Includes several documents, picures and code snnipets used in profiles or articles.
-It inlcudes the following categories:
+Includes several documents, pictures and code snippets used for profiles.
 
-## DevOps Administration.
+It includes the following categories:
 
-### Automation.
-### MicroServices.
+## 1.  DevOps Administration.
 
-## Software Development.
+###  1.1 Automation with Ansible.
+###  1.2 MicroServices with Dockers and Kubernetes.
 
-### Web Admin.
-#### Broker Service.
-#### Web Console.
+## 2. Software Development.
 
-### User Interface for IoT devices.
-#### UI/UX.
-#### Arduino boards firmware.
+### 2.1 Web Admin Console in JS/JAVA.
+### 2.2 Broker service in JAVA
+### 2.4 UI/UX Programming based on Kivy/Python
+### 2.5 Arduino boards firmware in C.
 
 ## Electric Engineering.
 
