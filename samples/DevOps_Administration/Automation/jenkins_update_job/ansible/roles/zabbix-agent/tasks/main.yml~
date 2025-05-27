@@ -1,7 +1,0 @@
----
-- include: RedHat.yml
-  become: yes
-  when: (vm_os == "CentOS") or (vm_os == "RedHat")
-
-#- include: Windows.yml
-#  when: vm_os == "Win2012"

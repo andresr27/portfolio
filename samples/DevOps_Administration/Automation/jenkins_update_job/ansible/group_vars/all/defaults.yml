@@ -1,6 +1,0 @@
-config_dir: ~/jenkins_update_job/config
-tmp_dir: /tmp/aprovisionamiento
-vapp_name: rhel_7_template
-vm_ip: "{{ lookup('ini','vm_ip section={{ vapp_name }} file={{ config_dir }}/vApp_params.ini') }}"
-vm_os: "{{ lookup('ini','vm_os section={{ vapp_name }} file={{ config_dir }}/vApp_params.ini') }}"
-vm_user: "{{ lookup('ini','vm_user section={{ vapp_name }} file={{ config_dir }}/vApp_params.ini') }}"
