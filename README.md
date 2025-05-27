@@ -7,7 +7,7 @@ La Paloma, Rocha, Uruguay.
 
 <figure>
   <img
-  src="src/assets/images/header.png"
+  src="public/images/header.png"
   alt="DevOps CV header.">
 </figure>
 
