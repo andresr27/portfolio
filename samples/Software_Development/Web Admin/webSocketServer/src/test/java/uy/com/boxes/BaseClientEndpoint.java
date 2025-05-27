@@ -1,0 +1,32 @@
+package uy.com.boxes;
+
+import uy.com.boxes.websockets.messages.Message;
+
+import javax.websocket.Session;
+import java.io.IOException;
+
+/**
+ * Created by marcel on 27/07/16.
+ */
+public abstract class BaseClientEndpoint {
+    public static final String DEFAULT_CONFIG_FILE = "box1.json";
+
+    private static final String domain = "mautibla.ddns.net";
+
+    //protected static final String uri = "ws://mautibla.ddns.net:8025" + "/websockets/boxes";
+
+    protected static final String uri = "ws://localhost:8025" + "/websockets/boxes";
+    protected Session mSession;
+
+    public void sendMessage(Message msg) {
+        sendMessage(msg.toJson());
+    }
+
+    protected void sendMessage(String msg) {
+        try {
+            mSession.getBasicRemote().sendText(msg);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+}

@@ -1,0 +1,32 @@
+{
+  "status": "OK",
+  "name": "Yerba Zara",
+  "productList": [
+    {
+      "productStock": 10,
+      "productName": "Yerba Zara 200g",
+      "productPrice": 20,
+      "productDesc": "Paquete de yerba zara de 200 grms. ",
+      "productId": 100
+    },
+    {
+      "productStock": 8,
+      "productName": "Yerba Zara 100g",
+      "productPrice": 12,
+      "productDesc": "Paquete de yerba zara de 100 grms. ",
+      "productId": 200
+    },
+    {
+      "productStock": 5,
+      "productName": "Yerba Zara 1/2 Kg",
+      "productPrice": 40,
+      "productDesc": "Paquete de yerba zara de medio kilo. ",
+      "productId": 300
+    }
+  ],
+  "money": 500,
+  "boxType": "tipo 1",
+  "locationName": "Virtual",
+  "ipAddress": "200.45.58.12",
+  "id": 1
+}

@@ -1,0 +1,8 @@
+HTTP/1.0 200 Connection established
+
+HTTP/1.1 302 Found
+Date: Thu, 16 Aug 2018 15:19:17 GMT
+X-VMWARE-VCLOUD-REQUEST-ID: b6e864c4-1d9f-4184-9ad4-1de41aee213f
+Location: https://gestion.dsc-svac.in.antel.com.uy/cloud/org/shg-i-stp/
+Content-Length: 0
+

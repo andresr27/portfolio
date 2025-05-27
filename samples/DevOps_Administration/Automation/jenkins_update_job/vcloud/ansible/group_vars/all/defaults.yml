@@ -1,0 +1,13 @@
+proxy_env:
+  http_proxy: 'http://proxy.wido.com.uy:3128'
+  https_proxy: 'http://proxy.wido.com.uy:3128'
+org_name: WIDO
+vdc_name: VDC01
+catalog_name: Linux
+tmp_dir: /tmp/vcloud
+config_dir: ~/jekins_update_job/config
+vapp_name: "rhel_7_template"
+vapp_tmpl_name: "{{ lookup('ini','vapp_tmpl_name section={{ vapp_name }} file={{ config_dir }}/vApp_params.ini') }}"
+vapp_tmpl_desc: "{{ lookup('ini','vapp_tmpl_desc section={{ vapp_name }} file={{ config_dir }}/vApp_params.ini') }}"
+vapp_state: ""
+

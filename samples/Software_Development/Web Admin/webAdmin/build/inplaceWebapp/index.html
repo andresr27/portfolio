@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="30" >
+    <title>Boxes Admin</title>
+
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/local.css">
+
+    <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="js/local.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- you need to include the shieldui css and js assets in order for the charts to work -->
+    <link rel="stylesheet" type="text/css"
+          href="http://www.shieldui.com/shared/components/latest/css/shieldui-all.min.css">
+    <link rel="stylesheet" type="text/css"
+          href="http://www.shieldui.com/shared/components/latest/css/light-bootstrap/all.min.css">
+    <script type="text/javascript"
+            src="http://www.shieldui.com/shared/components/latest/js/shieldui-all.min.js"></script>
+    <script type="text/javascript" src="http://www.prepbootstrap.com/Content/js/gridData.js"></script>
+    <script type="text/javascript">
+
+    </script>
+    <script type="text/javascript">
+        var ws;
+        $(function() {
+            WebSocketTest();
+        });
+
+        function sendDispatchMessage(box_id, prod_id) {
+            // Web Socket is connected, send data using send()
+            ws.send(JSON.stringify({
+                   type: "DISPATCH",
+                   boxId: box_id,
+                   productId: prod_id,
+            }));
+         }
+        
+
+         // Not working returns undifined object and JasonPArse rejects it using Json.stringify instead   
+         function readTextFile(file, callback) {
+           var rawFile = new XMLHttpRequest();
+           rawFile.overrideMimeType("application/json");
+           rawFile.open("GET", file, true);
+           rawFile.onreadystatechange = function() {
+             if (rawFile.readyState === 4) {
+               if (rawFile.status === 200 || rawFile.status == 0) {
+                    callback(rawFile.responseText);
+                    //alert("Message is received: " + textfile);
+               }
+             }
+           }
+           rawFile.send(null);
+         }
+                
+    	 
+
+         function WebSocketTest()
+          
+         {
+            //var boxes;
+            //readTextFile ("data/box1.json",function(response){
+            // 	boxes = JSON.parse(response);
+            //    alert("Message file received: " + response);
+             	//console.log(boxes[0].name);
+	    //    }); 
+	    //buildHtmlTable('#mainTable', boxes); 
+	        
+	   if ("WebSocket" in window)
+		 {
+		   // Let us open a web socket
+		   //ws = new WebSocket("ws://mautibla.com:8025/websockets/boxes");
+		   //ws = new WebSocket("ws://localhost:8025/websockets/boxes");
+		   ws = new WebSocket("ws://admin.wido.com.uy:8025/websockets/boxes");
+		   //alert("WebSocket trying to connect!");
+		   //<!--alert("Message is received: " + boxesStringJson);-->
+
+		   ws.onopen = function()
+		   {
+		      // Web Socket is connected, send data using send()
+		      ws.send(JSON.stringify({
+			    type: "GET_BOXES",
+		      }));
+		   };
+
+		   ws.onmessage = function (evt)
+		   {
+		      //var received_msg = readTextFile(evt.data,function(received_msg){
+		      //    <!--alert("Message is received: " + received_msg);-->      
+		      //});
+		      var received_msg = evt.data; 
+		      //alert("Json Message: " + received_msg);	
+		      var obj = JSON.parse(received_msg);
+		      //alert("Json Message: " + obj);
+		      //<!--alert(obj.type);-->
+		      var boxesStringJson = obj.data;
+		      //alert("Message string received: " + boxesStringJson)
+		      var boxes = JSON.parse(boxesStringJson);
+		      buildHtmlTable('#mainTable', boxes);
+		    };
+
+		    ws.onclose = function()
+		    {         
+		      // websocket is closed.
+		      alert("Connection is closed...");
+		    };
+    }
+
+		else
+		{
+		   // The browser doesn't support WebSocket
+		   alert("WebSocket NOT supported by your Browser!");
+		}
+
+         }
+    </script>
+</head>
+<!--<body onLoad="buildHtmlTable('#mainTable')">-->
+<div id="myModal" class="modal fade" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">Despachar producto</h4>
+            </div>
+            <div class="modal-body">
+                <p></p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" id="btnYes" class="btn btn-primary">Confirm</button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<div id="wrapper">
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">Boxes Admin</a> 
+        </div>
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav side-nav">
+                <li class="active"><a href="index.html"><i class="fa fa-bullseye"></i> Boxes</a></li>
+                <li><a href="index.html"><i class="fa fa-tasks"></i> Acerca</a></li>
+                <!--<li><a href="blog.html"><i class="fa fa-globe"></i> Blog</a></li>-->
+                <!--<li><a href="signup.html"><i class="fa fa-list-ol"></i> SignUp</a></li>-->
+                <!--<li><a href="register.html"><i class="fa fa-font"></i> Register</a></li>-->
+                <!--<li><a href="timeline.html"><i class="fa fa-font"></i> Timeline</a></li>-->
+                <!--<li><a href="forms.html"><i class="fa fa-list-ol"></i> Forms</a></li>-->
+                <!--<li><a href="typography.html"><i class="fa fa-font"></i> Typography</a></li>-->
+                <!--<li><a href="bootstrap-elements.html"><i class="fa fa-list-ul"></i> Bootstrap Elements</a></li>-->
+                <!--<li><a href="bootstrap-grid.html"><i class="fa fa-table"></i> Bootstrap Grid</a></li>-->
+            </ul>
+            <ul class="nav navbar-nav navbar-right navbar-user">
+                <li class="dropdown user-dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Usuario<b
+                            class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#"><i class="fa fa-gear"></i> Configuración</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#"><i class="fa fa-power-off"></i> Salir</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div id="page-wrapper">
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="panel panel-default ">
+                    <div class="panel-body alert-info">
+                        <div class="col-xs-5">
+                            <i class="fa fa-download fa-5x"></i>
+                        </div>
+                        <div class="col-xs-5 text-right">
+                            <p id="boxesCount" class="alerts-heading">4</p>
+                            <p class="alerts-text">Boxes</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="panel panel-default ">
+                    <div class="panel-body alert-info">
+                        <div class="col-xs-5">
+                            <i class="fa fa-check fa-5x"></i>
+                        </div>
+                        <div class="col-xs-5 text-right">
+                            <p id="boxesOnlinePercentage" class="alerts-heading">90%</p>
+                            <p class="alerts-text">En Linea</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3">
+                <div class="panel panel-default ">
+                    <div class="panel-body alert-info">
+                        <div class="col-xs-5">
+                            <i class="fa fa-money fa-5x"></i>
+                        </div>
+                        <div class="col-xs-5 text-right">
+                            <p class="alerts-heading">999</p>
+                            <p class="alerts-text">Ingresos</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3">
+                <div class="panel panel-default ">
+                    <div class="panel-body alert-info">
+                        <div class="col-xs-5">
+                            <i class="fa fa-exclamation-triangle fa-5x"></i>
+                        </div>
+                        <div class="col-xs-5 text-right">
+                            <p id="boxesAlarmCounter" class="alerts-heading">1</p>
+                            <p class="alerts-text">Alarmas</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h3 class="panel-title"><i class="fa fa-th-list"></i> Lista de Boxes</h3>
+                    </div>
+                    <div class="panel-body">
+                        <div class="sui-grid sui-grid-core" id="shieldui-grid2">
+                            <div class="sui-gridheader">
+                                <table class="sui-table sui-non-selectable">
+                                    <colgroup>
+                                        <col style="width:50px">
+                                        <col>
+                                        <col>
+                                        <col style="width:70px">
+                                        <col style="width:90px">
+                                        <col>
+                                    </colgroup>
+                                    <thead>
+                                    <tr class="sui-columnheader">
+                                        <!--Box.ID, Box.Name, Box.Location, Box.Stock, Box.Status. Box.IpAddress-->
+                                        <th class="sui-headercell"><a href="#" class="sui-link">ID</a></th>
+                                        <th class="sui-headercell"><a href="#" class="sui-link">Name</a></th>
+                                        <th class="sui-headercell"><a href="#" class="sui-link">Location</a></th>
+                                        <th class="sui-headercell"><a href="#" class="sui-link">Money</a></th>
+                                        <th class="sui-headercell"><a href="#" class="sui-link">Status</a></th>
+					<th class="sui-headercell"><a href="#" class="sui-link">Updated On</a></th>                                        
+					<!--<th class="sui-headercell"><a href="#" class="sui-link">Ip Address</a></th> -->
+                                    </tr>
+                                    </thead>
+                                    <tbody class="sui-hide">
+                                    <tr>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="sui-gridcontent">
+                                <table id="mainTable" class="sui-table sui-hover sui-selectable">
+                                    <colgroup>
+                                        <col style="width:50px">
+                                        <col>
+                                        <col>
+                                        <col style="width:70px">
+                                        <col style="width:90px">
+                                        <col>
+                                    </colgroup>
+                                    <tbody>
+
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Products Table-->
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h3 class="panel-title"><i class="fa fa-list"></i> Productos</h3>
+                    </div>
+                    <div class="panel-body">
+                        <div class="sui-grid sui-grid-core" id="shieldui-grid3">
+                            <div class="sui-gridheader">
+                                <table class="sui-table sui-non-selectable">
+                                    <colgroup>
+                                        <col style="width:50px">
+                                        <col>
+                                        <col style="width:50%">
+                                        <col style="width:70px">
+                                        <col style="width:90px">
+                                    </colgroup>
+                                    <thead>
+                                    <tr class="sui-columnheader">
+                                        <!--Box.ID, Box.Name, Box.Location, Box.Stock, Box.Status. Box.IpAddress-->
+                                        <th class="sui-headercell"><a href="#" class="sui-link">ID</a></th>
+                                        <th class="sui-headercell"><a href="#" class="sui-link">Nombre</a></th>
+                                        <th class="sui-headercell"><a href="#" class="sui-link">Descripción</a></th>
+                                        <th class="sui-headercell"><a href="#" class="sui-link">Precio</a></th>
+                                        <th class="sui-headercell"><a href="#" class="sui-link">Stock</a></th>
+                                        <th class="sui-headercell"><a href="#" class="sui-link"></a></th>
+                                    </tr>
+                                    </thead>
+                                    <tbody class="sui-hide">
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="sui-gridcontent">
+                                <table id="productTable" class="sui-table sui-hover sui-selectable">
+                                    <colgroup>
+                                        <col style="width:50px">
+                                        <col>
+                                        <col style="width:50%">
+                                        <col style="width:70px">
+                                        <col style="width:90px">
+                                    </colgroup>
+                                    <tbody>
+
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Products Table-->
+
+
+            </div>
+
+
+            <div class="col-lg-4">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h3 class="panel-title"><i class="fa fa-bar-chart-o"></i> Detalle de Box</h3>
+                    </div>
+                    <div class="panel-body">
+
+
+                        <div class="sui-grid sui-grid-core" id="shieldui-grid1">
+                            <div class="sui-gridheader">
+                                <table class="sui-table sui-non-selectable table-reflow">
+                                    <colgroup>
+                                        <col style="width:70px">
+                                        <col>
+                                    </colgroup>
+                                    <!--<thead>-->
+                                    <!--<tr class="sui-columnheader">-->
+                                    <!--&lt;!&ndash;Box.ID, Box.Name, Box.Location, Box.Stock, Box.Status. Box.IpAddress&ndash;&gt;-->
+                                    <!--<th class="sui-headercell"><a href="#" class="sui-link">ID</a></th>-->
+                                    <!--<th class="sui-headercell"><a href="#" class="sui-link">Name</a></th>-->
+                                    <!--<th class="sui-headercell"><a href="#" class="sui-link">Location</a></th>-->
+                                    <!--<th class="sui-headercell"><a href="#" class="sui-link">Stock</a></th>-->
+                                    <!--<th class="sui-headercell"><a href="#" class="sui-link">Status</a></th>-->
+                                    <!--<th class="sui-headercell"><a href="#" class="sui-link">Ip Address</a></th>-->
+                                    <!--</tr>-->
+                                    <!--</thead>-->
+                                    <tbody class="sui-hide">
+                                    <tr>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="sui-gridcontent">
+                                <table class="sui-table sui-hover sui-selectable">
+                                    <colgroup>
+                                        <col style="width:70px">
+                                        <col>
+                                    </colgroup>
+                                    <tbody>
+                                    <img id="boxImage" class="col-lg-12 col-xs-12 thumbnail img-responsive"
+                                         src="images/zara.jpg"/>
+                                    <tr class="sui-row">
+                                        <td class="sui-cell">Id</td>
+                                        <td id="boxId" class="sui-cell">0</td>
+                                    </tr>
+                                    <tr class="sui-alt-row">
+                                        <td class="sui-cell">Name</td>
+                                        <td id="boxName" class="sui-cell">Yerba vZara</td>
+                                    </tr>
+                                    <tr class="sui-row">
+                                        <td class="sui-cell">Location</td>
+                                        <td id="locationName" class="sui-cell">vPresidencia</td>
+                                    </tr>
+                                    <tr class="sui-alt-row">
+                                        <td class="sui-cell">Ip</td>
+                                        <td id="ipAddress" class="sui-cell">200.15.84.65</td>
+                                    </tr>
+                                    <tr class="sui-alt-row">
+                                        <td class="sui-cell">Tipo</td>
+                                        <td id="boxType" class="sui-cell">---</td>
+                                    </tr>
+                                    <tr class="sui-alt-row">
+                                        <td class="sui-cell">Num Productos</td>
+                                        <td id="productNumber" class="sui-cell">3</td>
+                                    </tr>
+                                    <tr class="sui-alt-row">
+                                        <td class="sui-cell">Stock</td>
+                                        <td id="stock" class="sui-cell">[OK]</td>
+                                    </tr>
+
+                                    <tr class="sui-alt-row">
+                                        <td class="sui-cell">Dinero</td>
+                                        <td id="money" class="sui-cell">$545</td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12">
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /#wrapper -->
+
+
+<div style="left: 266px; top: 465px; z-index: 1; display: none;" class="sui-loading-panel sui-loading-panel-core"><span
+        class="sui-loading-image"></span><span class="sui-loading-back"></span></div>
+</body>
+</html>
