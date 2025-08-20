@@ -7,10 +7,10 @@
   alt="DevOps CV header.">
 </figure>
 
-## Ideal stack
-- Managed Kubernetes nodes in AWS
+## Preferred stack
+- Kubernetes for microservices and functions
 - Terraform for IaaC
-- CI/CD with Github Actions.
+- CI/CD with GitHub Actions.
 - Opensearch for observability
 
 
@@ -19,8 +19,10 @@
 - Ubuntu, Centos, Suse, Redhat, Debian, Windows.
 ### Clouds
 - AWS, Azure, VSphere, VCloud Director.
-### IaaC and Configuration Mnagement
+### IaaC and Configuration Management
 - Terraform, Ansible
+### Computing software
+- Kubernetes, Swarm, Hadoop, MapReduce
 ### Automation for CI/CD
 - Kubernetes, Docker, Git, Github-actions, Jenkins, Bitbucket pipelines
 ### Databases
@@ -42,7 +44,7 @@
 
 ### DevOps
 
-#### 2022–2024 DevOps Engineer and Cloud Infrastructure Manager, Windifferent, Montevideo, Uruguay.
+#### [2022–2024 DevOps Engineer and Cloud Infrastructure Manager, Windifferent, Montevideo, Uruguay.](https://www.windifferent.com/)
 - My role involved managing AWS infrastructure and application deployments using Terraform, Kubernetes, Octopus, and the Atlassian stack. Later promoted to manager; I oversaw the data access process and network access policies.
 - I managed, debugged, and troubleshot data platforms including:
     - Databricks and Kafka connectivity to different data sources.
@@ -64,7 +66,7 @@
 - Led the cloud infrastructure team in improving documentation and defining policies for user authorization and resource creation.
 - Used Jira extensively to track project progress and team deliveries.
 
-#### 2020–2022 DevOps Engineer, Upwave, Montevideo, Uruguay.
+#### [2020–2022 DevOps Engineer, Upwave, Montevideo, Uruguay.](https://www.upwave.com/)
 - Managed AWS infrastructure and application deployments using Terraform, Kubernetes, Jenkins, CodeBuild, and GitHub. Additional responsibilities included database management, security assessments, and internal documentation.
 - Researched and documented Terraform best practices tailored to the company.
 - Managed monitoring tools like Prometheus, Grafana, and CloudWatch.
@@ -80,7 +82,7 @@
 - Built CI/CD pipelines with Jenkins and GitHub Actions.
 - Addressed security issues like UI redressing and clickjacking, added DMARC protection, and ran infrastructure analysis using TWIGS and ACM certificates.
 
-#### 2018–2019 Reliability Engineer, Netlabs, HG Offices, Montevideo, Uruguay.
+#### [2018–2019 Reliability Engineer, Netlabs, HG Offices, Montevideo, Uruguay.](https://www.netlabsglobal.io/)
 - Part of the Site Reliability Engineering team, responsible for managing Linux production environments.
 - Developed Business-as-a-Service solutions on VMware private cloud.
 - Managed virtual infrastructure using vCloud Director and Ansible.
@@ -95,7 +97,7 @@
 - Deployed and managed performance monitoring tools such as Zabbix, Elasticsearch, Kibana, and Grafana.
 - Built data visualizations (e.g., choropleths) using the ELK stack with Beats and custom scripts.
 
-#### 2017–2018 Reliability Engineer, Netlabs, HQ, Montevideo, Uruguay.
+#### [2017–2018 Reliability Engineer, Netlabs, HQ, Montevideo, Uruguay.](https://www.netlabsglobal.io/)
 - Provided SRE services for several small clients.
 - Deployed a responsive JS/PHP web application for São Paulo metro ticketing with PayPal integration.
 - Managed virtual infrastructure in AWS.
@@ -107,7 +109,7 @@
 
 ### Developer
 
-#### 2020 Python Full Stack Developer, BairesDev, Remote, Montevideo, Uruguay.
+#### [2020 Python Full Stack Developer, BairesDev, Remote, Montevideo, Uruguay](https://www.biointellisense.com/).
 - Ported Data Science algorithms from Python notebooks to production using GCP Cloud Functions and Pandas.
 - Provided SRE services and helped deploy JS/PHP web apps.
 - Worked for BioIntellisense on biomedical IoT projects.
@@ -116,8 +118,8 @@
 - Wrote integration tests using `unittest` and `pytest`.
 - Followed Agile practices using Jira and Bitbucket.
 
-#### 2014–2019 Technical Leader, Boxes, Montevideo, Uruguay.
-- Co-developed interactive vending machines with engineers and suppliers.
+#### [2014–2019 Technical Leader, Boxes, Montevideo, Uruguay.](https://boxesdevices.com/)
+- Developed interactive vending machines with engineers and suppliers.
 - Authored technical documentation for grant applications.
 - Led UI/UX redesign using Python/Kivy.
 - Designed Raspberry Pi shields using Arduino Leonardo.
@@ -125,19 +127,19 @@
 - Developed Python clients for OpenVPN-based M2M communication.
 - Replaced PyGame with Kivy to improve embedded UI performance.
 - Awarded by ANII (National Research and Innovation Agency).
-- As a freelancer, supplied industrial-grade Linux machines as alternatives to proprietary PLC systems (ABB, Siemens, Phoenix Contact).
-- Built a hybrid GPRS/Zigbee network using IMod devices from Techbase.
+- As an entrepreneur I wanted to supply industrial-grade Linux machines as alternatives to proprietary PLC systems (ABB, Siemens, Phoenix Contact).
+- PoC built of hybrid GPRS/Zigbee network using IMod devices from Techbase.
 
 ### Site Operations
 
-#### 2014–2017 Data Center Technical Leader, IBM, Montevideo, Uruguay.
+#### [2014–2017 Data Center Technical Leader, IBM, Montevideo, Uruguay.](https://www.ibm.com/account/uy/es/)
 - Managed physical assets and service contracts for IBM’s data centers in Uruguay.
 - Ensured operational compliance using Agile methods.
 - Planned and executed infrastructure maintenance (UPS, generators, HVAC, panels, BMS, security, FDS).
 - Reported site status to global/regional managers with the aim of achieving RL2 and RL3 compliance.
 - Led infrastructure projects including equipment deployments and move-outs.
 
-#### 2007–2014 Process Control Engineer, ISUSA, Ciudad del Plata, San José.
+#### [2007–2014 Process Control Engineer, ISUSA, Ciudad del Plata, San José.](https://isusa.com.uy/)
 - Ensured industrial communication and control systems functioned reliably in fertilizer and sulfuric acid plants.
 - Built inventory and maintenance plans for all electrical equipment.
 - Administered Windows servers for critical operations.
@@ -156,11 +158,20 @@
 
 ## DevOps
 
+### DevOps Engineer @ Windiffent
+- Advanced IaC development using Terraform.
+- Managed Kubernetes clusters.
+- Deployed microservices with Kustomize.
+- Configured AWS services including: EKS, Beanstalk, RDS, Glue, Firehose, EMR, CloudFront, SQS, Athena, and others.
+- Developed Ansible scripts to automate provisioning of compute environments.
+- Managed logs with Elasticsearch.
+- Monitored Kubernetes clusters using Prometheus and Grafana.
+
 ### DevOps Engineer @ Upwave
 - Advanced IaC development using Terraform.
 - Managed Kubernetes clusters.
 - Deployed microservices with Kustomize.
-- Configured AWS services including: EKS, Beanstalk, RDS, EMR, CloudFront, SQS, Athena, and others.
+- Configured AWS services including: EKS, Beanstalk, RDS, Glue, Firehose, EMR, CloudFront, SQS, Athena, and others.
 - Developed Ansible scripts to automate provisioning of compute environments.
 - Managed logs with Elasticsearch.
 - Monitored Kubernetes clusters using Prometheus and Grafana.
@@ -214,8 +225,9 @@
 # Education
 
 ## Courses
+- 2025 Hackerrank Python Training.
 - 2025 Entry-Level Security – [Cybrary](https://app.cybrary.it/)
-- 2024 Introduction to Deep Learning – Udemy
+- 2024 Introduction to Deep Q Learning – Udemy
 - 2022 Terraform Associate Certification – [HashiCorp](https://developer.hashicorp.com/terraform/tutorials/certification-003/associate-study-003)
 - 2022 Terraform Beginner to Advanced – Udemy
 - 2020 Amazon Elastic Kubernetes Service Workshop – Online

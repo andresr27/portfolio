@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Class-Path: Java-WebSocket-1.3.0.jar gson-2.2.4.jar tyrus-container-gr
+ izzly-1.2.1.jar tyrus-standalone-client-1.13.jar tyrus-container-griz
+ zly-server-1.13.jar tyrus-server-1.13.jar tyrus-client-1.13.jar javax
+ .websocket-api-1.1.jar
+Main-Class: uy.com.boxes.WebSocketServer
+
