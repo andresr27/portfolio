@@ -1,36 +1,40 @@
     
 
-# Andrés Renaud - Senior Devops Engineer
-<figure>
-  <img
-  src="public/images/header.png"
-  alt="DevOps CV header.">
-</figure>
+# CV for Senior Devops Engineer
+<figure>  <img src="public/images/header.png" alt="DevOps CV header."> </figure>
 
-## Preferred stack
+
+
+
+## Stack
+
+I have a dream stack it would be:
+
 - Kubernetes for microservices and functions
 - Terraform for IaaC
-- CI/CD with GitHub Actions.
+- CI/CD with GitHub Actions
 - Opensearch for observability
 
+That said, I am more than used to work with great variety of tools, too many to remember them all, some of them bellow.
 
-## Other tools used:
 ### Operating Systems
 - Ubuntu, Centos, Suse, Redhat, Debian, Windows.
 ### Clouds
-- AWS, Azure, VSphere, VCloud Director.
+- AWS, Google Cloud, Azure, VCloud Director.
 ### IaaC and Configuration Management
 - Terraform, Ansible
-### Computing software
+### Computing Clusters
 - Kubernetes, Swarm, Hadoop, MapReduce
 ### Automation for CI/CD
 - Kubernetes, Docker, Git, Github-actions, Jenkins, Bitbucket pipelines
+### Monitoring 
+- Opensearch, Grafana, Grafana Cloud, Datadog, Cloudwatch, Prometheus, Data Prepper, OTEL, Fluent-bit, Fluent-d, Logstash, Graylog, Syslog.
 ### Databases
-- MySQL, MariaDB, SQLLite, InlfuxDB, Postgres, DynamoDB, BigTable, Hive, Elasticsearch, Databricks, Superset, Metabase.
+- MySQL, MariaDB, SQLLite, InfluxDB, Postgres, DynamoDB, BigTable, Hive, Elasticsearch, Databricks, Superset, Metabase.
 ### Programming languages
 - Python, Typescript, C, Assembler, Bash, Java, JavaScript, Latex, R.
 ### Data Analysis
-- R, Elasticsearch, Kibana, Python, Matlab, Tableau, Excel.
+- Opensearch, R, Elasticsearch, Kibana, Python, Matlab, Tableau, Excel.
 ### Product Development
 - Agile, Jira, Project Requirements, Planning and Management.
 ### Software Frameworks
@@ -159,26 +163,34 @@
 ## DevOps
 
 ### DevOps Engineer @ Windiffent
-- Advanced IaC development using Terraform.
+- Advanced IaC development using Terraform and Terragrunt. 
+- Managed Kubernetes clusters created Terraform and Ansible roles in AWS
+- Deployed microservices and operators with Helm including Kafka, Prometheus, Superset, DataPrepper, Grafana Agent.
+- Configured AWS services including: EKS, ECS, RDS, CloudFront, SQS, Openvpn, Opensearch, Lambda, SNS, Cloudwatch.
+- Developed Ansible scripts to automate provisioning of EC2 instances for general purposes, bastions and reverse proxies.
+- Managed applications logs with Opensearch.
+- Monitored Kubernetes clusters using Prometheus and Grafana, OTEL and Data prepper.
+
+### DevOps Engineer @ Upwave 
+
+In this project my first goal was to migrate and improve the current IaC to make multi-region, and automated, ie: created, 
+configured and running after a disaster recovery or a new region deployment. That was the goal and we go pretty close. 
+For example, I developed API tools that would connect to Opensearch and create Dashboard and Alerts after a Developer added the Json configuration to the application repository. This allowed them to created custom Dahsboards and Alerts for each new feature without any more hassle that filling up the valued in the json protype or expporting them from Opensearch to create in limited production environment or new regions.
+
+Unfortunately, I don't have any code to share with you, as it was proprietary and deleted when I finished the job
+
+- Advanced IaC development using Terraform and Terraform Clould Workspaces
 - Managed Kubernetes clusters.
 - Deployed microservices with Kustomize.
 - Configured AWS services including: EKS, Beanstalk, RDS, Glue, Firehose, EMR, CloudFront, SQS, Athena, and others.
 - Developed Ansible scripts to automate provisioning of compute environments.
-- Managed logs with Elasticsearch.
+- Managed logs with Opensearch, developed an API client to automate configuration of Indexing, Lifecycle and Dashboard amongst other things. 
 - Monitored Kubernetes clusters using Prometheus and Grafana.
 
-### DevOps Engineer @ Upwave
-- Advanced IaC development using Terraform.
-- Managed Kubernetes clusters.
-- Deployed microservices with Kustomize.
-- Configured AWS services including: EKS, Beanstalk, RDS, Glue, Firehose, EMR, CloudFront, SQS, Athena, and others.
-- Developed Ansible scripts to automate provisioning of compute environments.
-- Managed logs with Elasticsearch.
-- Monitored Kubernetes clusters using Prometheus and Grafana.
-
-### DevOps Engineer @ Freelancer
+### DevOps Engineer @ Netlabs
+- Gave talks about [Cloud Infrastructure Best Practices](https://docs.google.com/presentation/d/10fAutBfuhfJ-XQC5SEmVmiYgj88kJtIFxGAoyR_iES8/edit?usp=sharing)
 - Built infrastructure as code using Terraform.
-- Deployed VPCs, ALBs, IGWs, and integrated them with EKS clusters on AWS.
+- Deployed VPCs, ALBs, IGWs, and integrated them with EKS clusters on AWS. 
 - Configured autoscaling groups and Kubernetes service-account–based roles for application scaling.
 - Implemented application monitoring with Prometheus and Grafana.
 
@@ -189,7 +201,7 @@
 - Created Bash scripts to build and push images to ECR.
 - Wrote Python scripts to convert CSV inventory into Nagios-compatible CFG files.
 
-### SRE Engineer for Antel ASVAC
+### SRE Engineer for Antel ASVAC @ Netlabs
 - Applied regular updates to the single sign-on portal for Antel applications.
 - Analyzed logs and generated visual reports using the ELK stack.
 - Managed networking infrastructure including load balancers, reverse proxies, and NFS.
@@ -213,12 +225,12 @@
 - Designed a multilayer reference architecture for IaaS clients using vCloud Director.
 - Managed Linux VM templates using Ansible.
 - Managed web access with Apache mod_proxy, pfSense, and vShields.
-- Deployed ELK stack and Zabbix servers using Docker Swarm.
+- **Deployed ELK stack and Zabbix servers using Docker Swarm.**
 
 ### Full Stack Developer for Boxes
-- Replaced PyGame with Kivy for improved embedded UI performance.
+- [Replaced PyGame with Kivy for improved embedded UI performance.](https://github.com/andresr27/portfolio/tree/master/Software_Development/Device%20UI-UX)
 - Redesigned Raspberry Pi “shield” circuit boards to reduce cost and build time.
-- Created an IoT broker service using Java WebSockets.
+- [Created an IoT broker service using Java WebSockets.](https://github.com/andresr27/portfolio/tree/master/Software_Development/Web%20Admin)
 - Developed a Bootstrap/JavaScript admin console, deployed on AWS with Gradle.
 - Wrote a Python client to enable M2M communication via OpenVPN.
 
@@ -241,9 +253,9 @@
 
 ## Academic Studies
 - 2009–2012 Impedance Spectroscopy Specialization – Facultad de Ciencias, UDELAR, Montevideo, Uruguay  
-  *Field of research: impedance spectroscopy over modified electrodes for specific polysaccharide detection.*
+  *Field of research: [Impedance spectroscopy over modified electrodes for specific polysaccharide detection](https://github.com/andresr27/portfolio/blob/master/Electric_Engineering/Impedance_Spectroscopy_over_metal-protein_interactions/Poster_impedancia5.pdf).*
 - 2001–2008 Electrical Engineering – Facultad de Ingeniería, UDELAR, Montevideo, Uruguay  
-  *Thesis: Modbus wireless communication hardware for home and industrial automation.*
+  *[Thesis: Modbus wireless communication hardware for home and industrial automation.](https://github.com/andresr27/portfolio/blob/master/Electric_Engineering/Wireless_WPAN_devices_with_Modbus-TCP/Poster_WiDO.jpg)*
 - 1999–2001 Pure and Applied Science – Vanier College, Montreal, Canada
 
 
