@@ -1,6 +1,6 @@
 ## Cover Letter
 
-Your DevOps role is the perfect intersection of my professional cloud expertise and my lifelong identity as a hardware engineer. Having followed the Flipper Zero since its inception, I admire not just the product itself but the brilliant execution of the entire ecosystem. The opportunity to apply my skills in Kubernetes, observability, and security to support the infrastructure behind such an iconic tool is incredibly compelling.
+Your DevOps role is the perfect intersection of my professional cloud expertise and my lifelong identity as a hardware engineer. Having followed the Flipper Zero since its inception, I admire not just the product itself but the brilliant execution of dream tool for network engineers. The opportunity to apply my skills in Kubernetes, observability, and security to support the infrastructure behind this great new device is incredibly compelling, it looks like a great tool to increase productivity.
 
 My engineering mindset was forged through hands-on experimentation. As a teenager, I used a train variablle transformer and a DC motor from an electric track car to build a color wheel, determined to discover the exact RPM needed to achieve perceptual white—an early lesson in persistent, applied problem-solving that still drives my approach to troubleshooting and optimization today. This innate curiosity led me to root phones, flash custom firmware on Sonoffs, and design custom PCBs and is the foundation of a passion that aligns perfectly with the Flipper ethos.
 
@@ -90,14 +90,14 @@ This is probably my best and hardest selling point. I love OpenSearch, but maybe
 
 All the companies I worked for in Uruguay were ISO 9001 compliant, and both IBM and ANTEL/HG also implemented ISO 27001. I audited roles, was audited, and was responsible for one of the security processes for the latter.
 
-In this new age, I would suggest a digital inventory updated regularly that we can run a vulnerability analyzer on and build a report to help create an action plan. I did this for Upwave using AWS System Manager Inventory, SSM agent, and TWIGS to build the reports.
+In this new age, I would suggest a digital inventory updated regularly that we can run a vulnerability analyzer on and build a report to help create an action plan. I did this for Upwave using AWS System Manager Inventory, SSM agent, and used TWIGS to build the reports.
 
 ### Incident Management
 
 My goal is always to build systems so resilient that incidents are rare, and when they do occur, the process is so smooth it becomes a learning opportunity, not a panic. There needs to be a clear understanding of:
 - Incident classification
 - Acknowledged response times
-- Backup and rotation plans
+  - OnCall backup list and rotation plans
 - Clear escalation processes
 - Right communication tools
 - Clean alarm panels—no noisy alerts
