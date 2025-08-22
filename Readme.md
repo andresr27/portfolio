@@ -1,4 +1,4 @@
-# CV for Senior Devops Engineer
+# CV for Senior DevOps Engineer
 
 <figure>  <img src="public/images/header.png" alt="DevOps CV header."> </figure>
 
@@ -11,7 +11,7 @@
     - [Site Operations](#site-operations)
 - [Projects](#projects)
     - [DevOps Projects](#devops-projects)
-        - [Windiffent Infrastructure Automation](#devops-engineer--windiffent)
+        - [Windifferent Infrastructure Automation](#devops-engineer--windifferent)
         - [Upwave Multi-Region IaC](#devops-engineer--upwave)
         - [Netlabs Cloud Infrastructure](#devops-engineer--netlabs)
         - [Upwork Containerization](#devops-engineer--upwork)
@@ -32,14 +32,14 @@
 
 ## Technical Stack
 
-I have a dream stack it would be:
+My ideal technology stack would be:
 
 - Kubernetes for microservices and functions
-- Terraform for IaaC
+- Terraform for IaC
 - CI/CD with GitHub Actions
-- Opensearch for observability
+- OpenSearch for observability
 
-That said, I am more than used to work with great variety of tools, too many to remember them all, some of them bellow.
+That said, I am experienced with a wide variety of tools—too many to remember them all—some of which are listed below.
 
 ### Technical Skills
 
@@ -50,22 +50,22 @@ That said, I am more than used to work with great variety of tools, too many to 
 | **IaC & Configuration Management** | Terraform, Ansible |
 | **Computing Clusters** | Kubernetes, Swarm, Hadoop, MapReduce |
 | **CI/CD Automation** | Kubernetes, Docker, Git, GitHub Actions, Jenkins, Bitbucket Pipelines |
-| **Monitoring & Observability** | Opensearch, Grafana, Grafana Cloud, Datadog, CloudWatch, Prometheus, Data Prepper, OTEL, Fluent-bit, Fluent-d, Logstash, Graylog, Syslog |
+| **Monitoring & Observability** | OpenSearch, Grafana, Grafana Cloud, Datadog, CloudWatch, Prometheus, Data Prepper, OTEL, Fluent-bit, Fluentd, Logstash, Graylog, Syslog |
 | **Databases** | MySQL, MariaDB, SQLite, InfluxDB, PostgreSQL, DynamoDB, BigTable, Hive, Elasticsearch, Databricks, Superset, Metabase |
 | **Programming Languages** | Python, TypeScript, C, Assembler, Bash, Java, JavaScript, LaTeX, R |
-| **Data Analysis** | Opensearch, R, Elasticsearch, Kibana, Python, MATLAB, Tableau, Excel |
+| **Data Analysis** | OpenSearch, R, Elasticsearch, Kibana, Python, MATLAB, Tableau, Excel |
 | **Product Development** | Agile, Jira, Project Requirements, Planning and Management |
 | **Software Frameworks** | Spring Boot, Flask, JBoss, Laravel, Kivy, Bootstrap, Express |
 | **Libraries** | boto3, pandas, websocket, pyserial, ggplot2, refind, csv |
-| **Security** | Apache WAFs, DB and OS hardening, HIDS for Kubernetes with Elasticsearch, TWIGS, AWS Well Architected Framework, CompTIA Security+ (in progress) |
+| **Security** | Apache WAFs, DB and OS hardening, HIDS for Kubernetes with Elasticsearch, TWIGS, AWS Well-Architected Framework, CompTIA Security+ (in progress) |
 
 ## Experience
 
 ### DevOps Roles
 
 #### [2022–2024 DevOps Engineer and Cloud Infrastructure Manager, Windifferent, Montevideo, Uruguay.](https://www.windifferent.com/)
-- My role involved managing AWS infrastructure and application deployments using Terraform, Kubernetes, Octopus, and the Atlassian stack. Later promoted to manager; I oversaw the data access process and network access policies.
-- I managed, debugged, and troubleshot data platforms including:
+- Managed AWS infrastructure and application deployments using Terraform, Kubernetes, Octopus, and the Atlassian stack. Later promoted to manager; oversaw the data access process and network access policies.
+- Managed, debugged, and troubleshot data platforms including:
     - Databricks and Kafka connectivity to different data sources.
     - Created a process to authorize access to data using roles.
 - Managed data consumption tools like Superset and Metabase, migrating from ECS to Kubernetes.
@@ -128,7 +128,7 @@ That said, I am more than used to work with great variety of tools, too many to 
 
 ### Developer Roles
 
-#### [2020 Python Full Stack Developer, BairesDev, Remote, Montevideo, Uruguay](https://www.biointellisense.com/).
+#### [2020 Python Full Stack Developer, BairesDev, Remote, Montevideo, Uruguay](https://www.biointellisense.com/)
 - Ported Data Science algorithms from Python notebooks to production using GCP Cloud Functions and Pandas.
 - Provided SRE services and helped deploy JS/PHP web apps.
 - Worked for BioIntellisense on biomedical IoT projects.
@@ -146,8 +146,8 @@ That said, I am more than used to work with great variety of tools, too many to 
 - Developed Python clients for OpenVPN-based M2M communication.
 - Replaced PyGame with Kivy to improve embedded UI performance.
 - Awarded by ANII (National Research and Innovation Agency).
-- As an entrepreneur I wanted to supply industrial-grade Linux machines as alternatives to proprietary PLC systems (ABB, Siemens, Phoenix Contact).
-- PoC built of hybrid GPRS/Zigbee network using IMod devices from Techbase.
+- As an entrepreneur, I wanted to supply industrial-grade Linux machines as alternatives to proprietary PLC systems (ABB, Siemens, Phoenix Contact).
+- Built PoC of hybrid GPRS/Zigbee network using IMod devices from Techbase.
 
 Look at [this project](https://github.com/andresr27/portfolio/tree/master?tab=readme-ov-file#full-stack-developer-for-boxes) for more details on the experience.
 
@@ -179,113 +179,98 @@ Look at [this project](https://github.com/andresr27/portfolio/tree/master?tab=re
 
 ## DevOps Projects
 
-### Senior DevOps Engineer @ Windiffent
+### Senior DevOps Engineer @ Windifferent
 
-This company was my biggest challenge yet. I begin as Senior DevOps engineer building a new monitoring system for applications
-running in distributed K8s clusters (multiple clouds, more than 5 and not most known) and also a few thing run on Linux instances.
+This company was my biggest challenge yet. I began as a Senior DevOps engineer building a new monitoring system for applications running in distributed K8s clusters (multiple clouds, more than 5, and not the most well-known) with a few things running on Linux instances.
 
-Provisioning of the cluster was straight forward with Kustomize, but Instance we had to use Ansible and AWX roles. I delivered that
-and things changed I started helping people with Kafa cluster in K8s and also Databricks setups with Terraform on AWS, remembering it gives me the chills.
+Cluster provisioning was straightforward with Kustomize, but for instances, we had to use Ansible and AWX roles. I delivered that, and then things changed—I started helping people with Kafka clusters in K8s and also Databricks setups with Terraform on AWS. Remembering it gives me chills.
 
-Then I was promoted to manager of DevOps and DBAs, but there is separate section for that.
-These are some other things I did:
+Then I was promoted to manager of DevOps and DBAs, but there's a separate section for that. These are some other things I did:
 - Advanced IaC development using Terraform and Terragrunt.
-- Managed Kubernetes clusters created Terraform and Ansible roles in AWS
-- Deployed microservices and operators with Helm including Kafka, Prometheus, Superset, DataPrepper, Grafana Agent.
-- Configured AWS services including: EKS, ECS, RDS, CloudFront, SQS, Openvpn, Opensearch, Lambda, SNS, Cloudwatch.
-- Developed Ansible scripts to automate provisioning of EC2 instances for general purposes, bastions and reverse proxies.
-- Managed applications logs with Opensearch.
-- Monitored Kubernetes clusters using Prometheus and Grafana, OTEL and Data prepper.
+- Managed Kubernetes clusters created with Terraform and Ansible roles in AWS.
+- Deployed microservices and operators with Helm including Kafka, Prometheus, Superset, DataPrepper, and Grafana Agent.
+- Configured AWS services including: EKS, ECS, RDS, CloudFront, SQS, OpenVPN, OpenSearch, Lambda, SNS, CloudWatch.
+- Developed Ansible scripts to automate provisioning of EC2 instances for general purposes, bastions, and reverse proxies.
+- Managed application logs with OpenSearch.
+- Monitored Kubernetes clusters using Prometheus and Grafana, OTEL and Data Prepper.
 - Added Databricks and Kafka connectivity to different data sources.
 
 Unfortunately, I don't have any code to share with you, as it was proprietary and deleted when I finished the job.
 
-### Cloud infrastructure manager @ Windiffent
+### Cloud Infrastructure Manager @ Windifferent
 
-My goal was to increase reliability and optimized costs. My team managed AWS infrastructure and application deployments
-for several teams of the company.
+My goal was to increase reliability and optimize costs. My team managed AWS infrastructure and application deployments for several teams in the company.
 
-The assets of the company was distributed across more than 10 AWS accounts for connected through different methods Peerings, Proxied connections, Internet VPN.
+The company's assets were distributed across more than 10 AWS accounts connected through different methods: Peerings, Proxied connections, Internet VPN.
 
-Difference in how we should manage security, cloud architecture and monitoring led to the termination of my contract.
-Bellow more details on other tasks I performed:
-- I oversaw the data access process and network access policies for AWS resources.
+Differences in how we should manage security, cloud architecture, and monitoring led to the termination of my contract. Below are more details on other tasks I performed:
+- Oversaw the data access process and network access policies for AWS resources.
 - Created a process to authorize access to data using roles and groups in Databricks.
 - Managed data consumption tools like Superset and Metabase, migrating from ECS to Kubernetes.
-- Created documentation and secured access to out Database.
+- Created documentation and secured access to our database.
 - Proposed reference architecture to unify company assets and decrease the exposure surface.
-- Plan migration
-- Create Python Synthetic checker agent to log checks from different networks, ie: VPN, Internet (Whitelist), other accounts, other Orgs.
+- Planned migration.
+- Created Python Synthetic checker agent to log checks from different networks, i.e., VPN, Internet (Whitelist), other accounts, other Orgs.
 - Managed the DBA team to perform:
     - Hardware upgrades, software updates, schema changes.
     - Enabled/disabled HA and replication.
     - Secured networks and implemented password rotation.
-    - Minimized downtime during operations, by using multiAZ and proper DNS routing
+    - Minimized downtime during operations by using multi-AZ and proper DNS routing.
 - Managed workflow through Jira and tracked work sources to optimize processes and increase capacity.
-- Led the cloud infrastructure team to improve documentation and defining policies for user authorization and resource creation.
+- Led the cloud infrastructure team to improve documentation and define policies for user authorization and resource creation.
 - Used Jira extensively to track project progress and team deliveries.
 
 Unfortunately, I don't have any code to share with you, as it was proprietary and deleted when I finished the job.
 
 ### Senior DevOps Engineer @ Upwave
 
-In this project my first goal was to migrate and improve the current IaC to make multi-region, and automated, ie: created,
-configured and running after a disaster recovery or a new region deployment. That was the goal and we go pretty close.
-For example, I developed API tools that would connect to Opensearch and create Dashboard and Alerts after a Developer added the Json configuration to the application repository. This allowed them to created custom Dahsboards and Alerts for each new feature without any more hassle that filling up the valued in the json protype or expporting them from Opensearch to create in limited production environment or new regions.
+In this project, my first goal was to migrate and improve the current IaC to make it multi-region and automated—i.e., created, configured, and running after a disaster recovery or new region deployment. That was the goal, and we got pretty close. For example, I developed API tools that would connect to OpenSearch and create Dashboards and Alerts after a Developer added the JSON configuration to the application repository. This allowed them to create custom Dashboards and Alerts for each new feature without any more hassle than filling up the values in the JSON prototype or exporting them from OpenSearch to create in limited production environments or new regions.
 
 Unfortunately, I don't have any code to share with you, as it was proprietary and deleted when I finished the job.
 
-- Advanced IaC development using Terraform and Terraform Clould Workspaces
+- Advanced IaC development using Terraform and Terraform Cloud Workspaces.
 - Managed Kubernetes clusters.
-- Deployed microservices with Kustomize to deploy to cluster in different regions
+- Deployed microservices with Kustomize to clusters in different regions.
 - Used Kustomize to integrate NGINX controllers with VS and VSR configurations.
 - Configured AWS services including: EKS, Beanstalk, RDS, Glue, Firehose, EMR, CloudFront, SQS, Athena, and others.
 - Developed Ansible scripts to automate provisioning of compute environments.
 - Managed CI/CD pipelines for CMA BE and FE and other microservices using Octopus, Bitbucket, and JFrog.
-- Managed logs with Opensearch, developed an API client to automate configuration of Indexing, Lifecycle and Dashboard amongst other things.
-- Monitored Kubernetes clusters using Prometheus and Grafana, Fluent-bit and Opensearch.
+- Managed logs with OpenSearch, developed an API client to automate configuration of Indexing, Lifecycle, and Dashboard, among other things.
+- Monitored Kubernetes clusters using Prometheus and Grafana, Fluent-bit and OpenSearch.
 - Increased our IaC coverage significantly by:
     - Adding an EKS cluster and VPC to Terraform and managing most accounts.
     - Deploying and configuring an OpenSearch cluster using Terraform and Python.
     - Fixing broken code in Databricks installations, which had previously been applied manually.
 
-
 Unfortunately, I don't have any code to share with you, as it was proprietary and deleted when I finished the job.
 
 ### DevOps Engineer @ Netlabs
-I started as SysAdmin, studying a lot: RedHat, Hadoop, Elasticsearch, AWS and Azure. Then they to prepare presentations
-for client and teams. Soon after I proved my worse I was tackling small projects, back for some roles without one and build a couple of PoC.
+
+I started as a SysAdmin, studying a lot: RedHat, Hadoop, Elasticsearch, AWS, and Azure. Then I prepared presentations for clients and teams. Soon after I proved my worth, I was tackling small projects, back for some roles without one, and built a couple of PoCs.
 
 - Gave talks about [Cloud Infrastructure Best Practices](https://github.com/andresr27/portfolio/tree/master/public/DevOps_Administration/Presentations)
 - Built infrastructure as code using Terraform.
 - Deployed VPCs, ALBs, IGWs, and integrated them with EKS clusters on AWS.
-- Configured autoscaling groups and Kubernetes service-account–based roles for application scaling.
+- Configured autoscaling groups and Kubernetes service-account-based roles for application scaling.
 - Implemented application monitoring with Prometheus and Grafana.
 
-
-<figure>  <img src="public/images/well_architected_fraemwork_examples.png" alt="Opensearch reliability dashboards."> </figure>
+<figure>  <img src="public/images/well_architected_fraemwork_examples.png" alt="OpenSearch reliability dashboards."> </figure>
 
 ### SRE Engineer for Antel ASVAC @ Netlabs
 
-During my time at Netlabs, I had the opportunity to work on critical infrastructure for Antel, Uruguay's national telecommunications
-company. My role focused on maintaining and enhancing the single sign-on portal that served as the gateway to various Antel
-applications. This project required a meticulous approach to system updates, security hardening, and performance optimization to
-ensure seamless service delivery to thousands of users.
+During my time at Netlabs, I had the opportunity to work on critical infrastructure for Antel, Uruguay's national telecommunications company. My role focused on maintaining and enhancing the single sign-on portal that served as the gateway to various Antel applications. This project required a meticulous approach to system updates, security hardening, and performance optimization to ensure seamless service delivery to thousands of users.
 
 - Applied regular updates to the single sign-on portal for Antel applications.
 - Analyzed logs and generated visual reports using the ELK stack.
 - Managed networking infrastructure including load balancers, reverse proxies, and NFS.
 - Participated in the migration of frontend and API components for Vera TV to a new RL3 data center.
 
-<figure>  <img src="public/DevOps_Administration/Micro_Services/ELK/waf_dashboard.png" alt="Opensearch reliability dashboards."> </figure>
-<figure>  <img src="public/DevOps_Administration/Micro_Services/ELK/waf_dashboard_example.png" alt="Opensearch reliability dashboards."> </figure>
+<figure>  <img src="public/DevOps_Administration/Micro_Services/ELK/waf_dashboard.png" alt="OpenSearch reliability dashboards."> </figure>
+<figure>  <img src="public/DevOps_Administration/Micro_Services/ELK/waf_dashboard_example.png" alt="OpenSearch reliability dashboards."> </figure>
 
 ### DevOps Engineer @ Upwork
 
-As a freelance DevOps engineer, I worked with various clients to containerize their applications and establish robust
-deployment pipelines on AWS. This role allowed me to work with diverse technology stacks and solve unique infrastructure
-challenges for each client. I particularly enjoyed helping startups establish their cloud foundations with scalable, cost-effective
-solutions that could grow with their business.
+As a freelance DevOps engineer, I worked with various clients to containerize their applications and establish robust deployment pipelines on AWS. This role allowed me to work with diverse technology stacks and solve unique infrastructure challenges for each client. I particularly enjoyed helping startups establish their cloud foundations with scalable, cost-effective solutions that could grow with their business.
 
 - Implemented stateless Docker containers on AWS.
 - Used ECS and Fargate to provide scalable, resilient services.
@@ -295,10 +280,7 @@ solutions that could grow with their business.
 
 ### System Administrator for XN Brasil
 
-I supported XN Brasil in stabilizing their production environment and improving their deployment processes. This role involved
-deep diving into full-stack application debugging and establishing more reliable deployment practices.
-I helped transition their PHP/Laravel application to AWS and implemented Jira Service Desk to streamline their internal support
-processes.
+I supported XN Brasil in stabilizing their production environment and improving their deployment processes. This role involved deep diving into full-stack application debugging and establishing more reliable deployment practices. I helped transition their PHP/Laravel application to AWS and implemented Jira Service Desk to streamline their internal support processes.
 
 - Debugged full-stack applications in production.
 - Deployed a PHP/Laravel application to AWS.
@@ -308,10 +290,7 @@ processes.
 
 ### Python Full Stack Developer for BioIntellisense
 
-Working with BairesDev for BioIntellisense, I contributed to biomedical IoT projects that required both data science expertise
-and production engineering skills. My main responsibility was bridging the gap between research algorithms and production-ready
-systems, ensuring that data science models could run efficiently and reliably in a cloud environment while maintaining scientific
-accuracy.
+Working with BairesDev for BioIntellisense, I contributed to biomedical IoT projects that required both data science expertise and production engineering skills. My main responsibility was bridging the gap between research algorithms and production-ready systems, ensuring that data science models could run efficiently and reliably in a cloud environment while maintaining scientific accuracy.
 
 - Used the Pandas framework to analyze data and generate alerts.
 - Optimized Data Science algorithms for deployment in GCP Cloud Functions.
@@ -321,10 +300,7 @@ accuracy.
 
 ### Product Developer for Antel NDG
 
-At Netlabs, I worked on designing infrastructure solutions for Antel's NDG project, focusing on creating a robust IaaS
-offering using vCloud Director. This project involved architecting multi-tenant environments with proper isolation, security,
-and monitoring. I enjoyed the challenge of building enterprise-grade solutions that met the high reliability standards expected
-from a national telecommunications provider.
+At Netlabs, I worked on designing infrastructure solutions for Antel's NDG project, focusing on creating a robust IaaS offering using vCloud Director. This project involved architecting multi-tenant environments with proper isolation, security, and monitoring. I enjoyed the challenge of building enterprise-grade solutions that met the high reliability standards expected from a national telecommunications provider.
 
 <figure>  <img src="public/images/basic_networkingNDG.png" alt="Reference architecture."> </figure>
 
@@ -335,16 +311,14 @@ from a national telecommunications provider.
 
 ### Full Stack Developer for Boxes
 
-As Technical Leader at Boxes, I led the development of interactive vending machines, combining hardware and software innovation.
-This entrepreneurial experience taught me how to balance technical excellence with business constraints. I particularly enjoyed the
-cross-disciplinary nature of the work, which ranged from circuit board design to cloud administration and everything in between.
+As Technical Leader at Boxes, I led the development of interactive vending machines, combining hardware and software innovation. This entrepreneurial experience taught me how to balance technical excellence with business constraints. I particularly enjoyed the cross-disciplinary nature of the work, which ranged from circuit board design to cloud administration and everything in between.
 
 - [Replaced PyGame with Kivy for improved embedded UI performance.](https://github.com/andresr27/portfolio/tree/master/public/Software_Development/Device%20UI-UX/Pi2Arduino)
 - Redesigned Raspberry Pi "shield" circuit boards to reduce cost and build time.
 - [Created an IoT broker service using Java WebSockets.](https://github.com/andresr27/portfolio/public/Software_Development/Web%20Admin)
 - Developed a Bootstrap/JavaScript admin console, deployed on AWS with Gradle.
 - Wrote a Python client to enable M2M communication via OpenVPN.
-- Managed circuit board requirements for CAD provider and manufacturer in China, with Seed Studio, another company that has grown a bit.
+- Managed circuit board requirements for CAD provider and manufacturer in China, with Seeed Studio, another company that has grown a bit.
 
 # Education
 
@@ -369,7 +343,6 @@ cross-disciplinary nature of the work, which ranged from circuit board design to
 - 2001–2008 Electrical Engineering – Facultad de Ingeniería, UDELAR, Montevideo, Uruguay  
   *[Thesis: Modbus wireless communication hardware for home and industrial automation.](https://github.com/andresr27/portfolio/blob/master/Electric_Engineering/Wireless_WPAN_devices_with_Modbus-TCP/Poster_WiDO.jpg)*
 - 1999–2001 Pure and Applied Science – Vanier College, Montreal, Canada
-
 
 ## Public Speaking
 
