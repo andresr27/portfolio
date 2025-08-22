@@ -1,4 +1,6 @@
->ssh jenkins.wido.com.uy
+| ⚠️  This was done more than 7 years ago and does not represent at my current documentations standard. |
+|-------------------------------------------------------------------------------------------------------|
+> >ssh jenkins.wido.com.uy
 
 >cd jenkins_update_job/
 

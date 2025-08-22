@@ -1,4 +1,7 @@
-# Portafolio.
+| ⚠️  This was done more than 10 years ago and does not represent at my current documentations standard.|
+|-------------------------------------------|
+
+# Portafolio. OUTDATED
 
 Includes several documents, pictures and code snippets used for profiles.
 

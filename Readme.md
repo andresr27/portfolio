@@ -338,7 +338,7 @@ As Technical Leader at Boxes, I led the development of interactive vending machi
 This entrepreneurial experience taught me how to balance technical excellence with business constraints. I particularly enjoyed the 
 cross-disciplinary nature of the work, which ranged from circuit board design to cloud administration and everything in between.
 
-- [Replaced PyGame with Kivy for improved embedded UI performance.](https://github.com/andresr27/portfolio/tree/master/public/Software_Development/Device%20UI-UX)
+- [Replaced PyGame with Kivy for improved embedded UI performance.](https://github.com/andresr27/portfolio/tree/master/public/Software_Development/Device%20UI-UX/Pi2Arduino)
 - Redesigned Raspberry Pi "shield" circuit boards to reduce cost and build time.
 - [Created an IoT broker service using Java WebSockets.](https://github.com/andresr27/portfolio/public/Software_Development/Web%20Admin)
 - Developed a Bootstrap/JavaScript admin console, deployed on AWS with Gradle.

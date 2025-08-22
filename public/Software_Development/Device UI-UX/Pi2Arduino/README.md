@@ -1,4 +1,9 @@
-# Branded UI based on Kivy
+ 
+| ⚠️  This was done more than 10 years ago and does not represent at my current documentations standard.|
+|-------------------------------------------|
+
+
+# Branded UI based on Kivy 
 # Vending Machine Python Client
 
 SAMPLE CODE ONLY!
