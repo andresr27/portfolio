@@ -110,7 +110,7 @@ Policy is the security enforcer, together with configuration management are key 
 a secure and reliable infrastructure while limiting costs surges.
 I've configured policies in AWS, Terraform, Databricks, Kubernetes, and also in Linux.
 
-### Reviewing and improving deployment automation processes**
+### Reviewing and improving deployment automation processes
 This is the DevOps mindset on my first job as sysAdmin Developer had me go to the office at night just to deploy a Java binary in Jboss.
 These days, I give them everything preconfigured and explained, so hopefully they'd only write to say thank you and that they've love the documentation.
 
@@ -134,10 +134,10 @@ I like IBM way of thinking in this respect. There needs to be a clear understand
 - Incident classification
 - Acknowledged response times 
 - Backup and rotation plans
-- Clear Scalation progress
+- Clear Scalation process
 - Right communication tools
-- Clean Alarm panels, no noisy alerts.
-- Centralized easy to find documentation.
+- Clean Alarm panels, no noisy alerts
+- Centralized easy to find documentation
 
 We also need to test the process to make problem evident before an incident. The quality of the incident response a reflections of the work we put before it.
 Nothing worse than have your CTO calling you at 6am in the morning to debug a Kubernetes platform running a crashed service with no idea of how it was build or what is really doing.
@@ -147,6 +147,6 @@ In moments like this I appreciate the linux history command, the framework docum
 
 ### Final note
 
-I hope this gives you rounded idea o what I can deliver, I'm looking forward to talk if you want to know more. If not, thanks for Flippers they 
+I hope this gives you rounded idea o what I can deliver, I'm looking forward to talk if you want to know more. If not, thanks for the Flippers they 
 are amazing devices and I really want to get them all.
 

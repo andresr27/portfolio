@@ -1,5 +1,5 @@
 # CV for Senior Devops Engineer
-<figure>  <img src="public/images/header.png" alt="DevOps CV header."> </figure>
+    <figure>  <img src="public/images/header.png" alt="DevOps CV header."> </figure>
 
 ## Table of Contents
 
@@ -178,7 +178,7 @@ That said, I am more than used to work with great variety of tools, too many to 
 
 ### Senior DevOps Engineer @ Windiffent
 
-This company was my biggest challenge yet. I begun as Senior DevOps engineer building a new monitoring system for applications
+This company was my biggest challenge yet. I begin as Senior DevOps engineer building a new monitoring system for applications
 running in distributed K8s clusters (multiple clouds, more than 5 and not most known) and also a few thing run on Linux instances.
 
 Provisioning of the cluster was straight forward with Kustomize, but Instance we had to use Ansible and AWX roles. I delivered that
@@ -259,20 +259,44 @@ for client and teams. Soon after I proved my worse I was tackling small projects
 - Configured autoscaling groups and Kubernetes service-account–based roles for application scaling.
 - Implemented application monitoring with Prometheus and Grafana.
 
+
+<figure>  <img src="public/images/well_architected_fraemwork_examples.png" alt="Opensearch reliability dashboards."> </figure>
+
+### SRE Engineer for Antel ASVAC @ Netlabs
+
+During my time at Netlabs, I had the opportunity to work on critical infrastructure for Antel, Uruguay's national telecommunications 
+company. My role focused on maintaining and enhancing the single sign-on portal that served as the gateway to various Antel 
+applications. This project required a meticulous approach to system updates, security hardening, and performance optimization to 
+ensure seamless service delivery to thousands of users.
+
+- Applied regular updates to the single sign-on portal for Antel applications.
+- Analyzed logs and generated visual reports using the ELK stack.
+- Managed networking infrastructure including load balancers, reverse proxies, and NFS.
+- Participated in the migration of frontend and API components for Vera TV to a new RL3 data center.
+
+<figure>  <img src="public/DevOps_Administration/Micro_Services/ELK/waf_dashboard.png" alt="Opensearch reliability dashboards."> </figure>
+<figure>  <img src="public/DevOps_Administration/Micro_Services/ELK/waf_dashboard_example.png" alt="Opensearch reliability dashboards."> </figure>
+
 ### DevOps Engineer @ Upwork
+    
+As a freelance DevOps engineer, I worked with various clients to containerize their applications and establish robust 
+deployment pipelines on AWS. This role allowed me to work with diverse technology stacks and solve unique infrastructure 
+challenges for each client. I particularly enjoyed helping startups establish their cloud foundations with scalable, cost-effective 
+solutions that could grow with their business.
+
 - Implemented stateless Docker containers on AWS.
 - Used ECS and Fargate to provide scalable, resilient services.
 - Used Docker Compose for local and remote development.
 - Created Bash scripts to build and push images to ECR.
 - Wrote Python scripts to convert CSV inventory into Nagios-compatible CFG files.
 
-### SRE Engineer for Antel ASVAC @ Netlabs
-- Applied regular updates to the single sign-on portal for Antel applications.
-- Analyzed logs and generated visual reports using the ELK stack.
-- Managed networking infrastructure including load balancers, reverse proxies, and NFS.
-- Participated in the migration of frontend and API components for Vera TV to a new RL3 data center.
-
 ### System Administrator for XN Brasil
+
+I supported XN Brasil in stabilizing their production environment and improving their deployment processes. This role involved 
+deep diving into full-stack application debugging and establishing more reliable deployment practices. 
+I helped transition their PHP/Laravel application to AWS and implemented Jira Service Desk to streamline their internal support
+processes.
+
 - Debugged full-stack applications in production.
 - Deployed a PHP/Laravel application to AWS.
 - Deployed and configured Jira Service Desk.
@@ -280,6 +304,12 @@ for client and teams. Soon after I proved my worse I was tackling small projects
 ## Developer
 
 ### Python Full Stack Developer for BioIntellisense
+
+Working with BairesDev for BioIntellisense, I contributed to biomedical IoT projects that required both data science expertise 
+and production engineering skills. My main responsibility was bridging the gap between research algorithms and production-ready 
+systems, ensuring that data science models could run efficiently and reliably in a cloud environment while maintaining scientific 
+accuracy.
+
 - Used the Pandas framework to analyze data and generate alerts.
 - Optimized Data Science algorithms for deployment in GCP Cloud Functions.
 - Built data pipelines using protocol buffers.
@@ -287,12 +317,25 @@ for client and teams. Soon after I proved my worse I was tackling small projects
 - Wrote integration tests using `unittest` and `pytest`.
 
 ### Product Developer for Antel NDG
+
+At Netlabs, I worked on designing infrastructure solutions for Antel's NDG project, focusing on creating a robust IaaS 
+offering using vCloud Director. This project involved architecting multi-tenant environments with proper isolation, security, 
+and monitoring. I enjoyed the challenge of building enterprise-grade solutions that met the high reliability standards expected 
+from a national telecommunications provider.
+
+<figure>  <img src="public/images/basic_networkingNDG.png" alt="Reference architecture."> </figure>
+
 - Designed a multilayer reference architecture for IaaS clients using vCloud Director.
 - Managed Linux VM templates using Ansible.
 - Managed web access with Apache mod_proxy, pfSense, and vShields.
 - **Deployed ELK stack and Zabbix servers using Docker Swarm.**
 
 ### Full Stack Developer for Boxes
+
+As Technical Leader at Boxes, I led the development of interactive vending machines, combining hardware and software innovation.
+This entrepreneurial experience taught me how to balance technical excellence with business constraints. I particularly enjoyed the 
+cross-disciplinary nature of the work, which ranged from circuit board design to cloud administration and everything in between.
+
 - [Replaced PyGame with Kivy for improved embedded UI performance.](https://github.com/andresr27/portfolio/tree/master/Software_Development/Device%20UI-UX)
 - Redesigned Raspberry Pi "shield" circuit boards to reduce cost and build time.
 - [Created an IoT broker service using Java WebSockets.](https://github.com/andresr27/portfolio/tree/master/Software_Development/Web%20Admin)
