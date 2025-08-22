@@ -103,7 +103,8 @@ Same for K8s port forwarding and ingress controller configuration.
 ## Your responsibilities
 
 ### Managing Flipper Devices infrastructure and k8s
-Can't think of any better task than this.
+Can't think of any better task than this. Check [my experience at Boxes](https://github.com/andresr27/portfolio/tree/master?tab=readme-ov-file#20142019-technical-leader-boxes-montevideo-uruguay),
+it was one of the coolest side projects I've had and I really made a difference the software, the hardware and management console, while training future engineer take the lead.
 
 ### Improving infrastructure access control policies
 Policy is the security enforcer, together with configuration management are key and primary aspects that we need ot ensure 

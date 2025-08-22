@@ -148,6 +148,8 @@ That said, I am more than used to work with great variety of tools, too many to 
 - As an entrepreneur I wanted to supply industrial-grade Linux machines as alternatives to proprietary PLC systems (ABB, Siemens, Phoenix Contact).
 - PoC built of hybrid GPRS/Zigbee network using IMod devices from Techbase.
 
+Look at [this project](https://github.com/andresr27/portfolio/tree/master?tab=readme-ov-file#full-stack-developer-for-boxes) for more details on the experience.
+
 ### Site Operations
 
 #### [2014–2017 Data Center Technical Leader, IBM, Montevideo, Uruguay.](https://www.ibm.com/account/uy/es/)
@@ -341,6 +343,7 @@ cross-disciplinary nature of the work, which ranged from circuit board design to
 - [Created an IoT broker service using Java WebSockets.](https://github.com/andresr27/portfolio/tree/master/Software_Development/Web%20Admin)
 - Developed a Bootstrap/JavaScript admin console, deployed on AWS with Gradle.
 - Wrote a Python client to enable M2M communication via OpenVPN.
+- Managed circuit board requirements for CAD provider and manufacturer in China.
 
 # Education
 
