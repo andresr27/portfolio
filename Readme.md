@@ -315,7 +315,7 @@ As Technical Leader at Boxes, I led the development of interactive vending machi
 
 - [Replaced PyGame with Kivy for improved embedded UI performance.](https://github.com/andresr27/portfolio/tree/master/public/Software_Development/Device%20UI-UX/Pi2Arduino)
 - Redesigned Raspberry Pi "shield" circuit boards to reduce cost and build time.
-- [Created an IoT broker service using Java WebSockets.](https://github.com/andresr27/portfolio/public/Software_Development/Web%20Admin)
+- [Created an IoT broker service using Java WebSockets.](https://github.com/andresr27/portfolio/tree/master/public/Software_Development/Web%20Admin)
 - Developed a Bootstrap/JavaScript admin console, deployed on AWS with Gradle.
 - Wrote a Python client to enable M2M communication via OpenVPN.
 - Managed circuit board requirements for CAD provider and manufacturer in China, with Seeed Studio, another company that has grown a bit.
