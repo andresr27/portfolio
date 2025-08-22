@@ -1,14 +1,14 @@
 ## Cover Letter
 
-Your DevOps role is the perfect intersection of my professional cloud expertise and my lifelong identity as a hardware hacker. Having followed the Flipper Zero since its inception, I admire not just the product itself but the brilliant execution of the entire ecosystem. The opportunity to apply my skills in Kubernetes, observability, and security to support the infrastructure behind such an iconic tool is incredibly compelling.
+Your DevOps role is the perfect intersection of my professional cloud expertise and my lifelong identity as a hardware engineer. Having followed the Flipper Zero since its inception, I admire not just the product itself but the brilliant execution of the entire ecosystem. The opportunity to apply my skills in Kubernetes, observability, and security to support the infrastructure behind such an iconic tool is incredibly compelling.
 
-My engineering mindset was forged through hands-on experimentation. As a teenager, I hacked a train transformer and a DC motor to build a color wheel, determined to discover the exact RPM needed to achieve perceptual white—an early lesson in persistent, applied problem-solving that still drives me today. 
-An early lesson in persistent, applied problem-solving that still drives my approach to troubleshooting and optimization today. This innate curiosity This innate curiosity led me to root phones, flash custom firmware on Sonoffs, and design custom PCBs is the foundation a passion that aligns perfectly with the Flipper ethos.
+My engineering mindset was forged through hands-on experimentation. As a teenager, I used a train variablle transformer and a DC motor from an electric track car to build a color wheel, determined to discover the exact RPM needed to achieve perceptual white—an early lesson in persistent, applied problem-solving that still drives my approach to troubleshooting and optimization today. This innate curiosity led me to root phones, flash custom firmware on Sonoffs, and design custom PCBs and is the foundation of a passion that aligns perfectly with the Flipper ethos.
 
+I reviewed your technical requirements below, please use [this link](https://github.com/andresr27/portfolio/blob/master/cover_letter.md) if you'd like better formating.
 
 ## Application Requirements Review
 
-- **Linux** – Advanced level: architectural knowledge, deployment, debugging
+- **Linux** – Advanced level: architectural knowledge, deployment, debugging 
 - **K8s** – Advanced level: architecture, public and private clouds, networking (including service mesh), debugging
 - **Docker** – Packaging web services and auxiliary tools
 - **Observability** – Monitoring (Zabbix/Nagios, etc.), Logging (Graylog, Logstash, etc.), Metrics (Prometheus)
@@ -40,7 +40,7 @@ I'm familiar with the importance of:
 
 ### Observability:
 
-I've used all of them. For Nagios, I configured containers images from exports from Linux instances. However, I would use OpenSearch with OTEL and Data Prepper as a substitute for all of them. They look old compared to these new tools, and you get a true APM with metrics, logging, and traces for a fraction of the cost of a SaaS product. 
+I've used all of them. For Nagios, I configured containers images from exports from Linux instances. However, I would use Opensearch with OTEL and Data Prepper as a substitute for all of them. They look old compared to these new tools, and you get a true APM with metrics, logging, and traces for a fraction of the cost of a SaaS product. 
 
 Most of my experience comes from building mixed-environment Grafana/Prometheus for metrics and OpenSearch/Fluent-bit for logging—it's powerful and robust, but it can be simplified.
 
