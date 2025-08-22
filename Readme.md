@@ -1,5 +1,6 @@
 # CV for Senior Devops Engineer
-    <figure>  <img src="public/images/header.png" alt="DevOps CV header."> </figure>
+
+<figure>  <img src="public/images/header.png" alt="DevOps CV header."> </figure>
 
 ## Table of Contents
 
