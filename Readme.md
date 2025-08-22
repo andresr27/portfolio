@@ -4,19 +4,6 @@
 ## Table of Contents
 
 - [Technical Stack](#technical-stack)
-    - [Operating Systems](#operating-systems)
-    - [Cloud Platforms](#cloud-platforms)
-    - [IaC and Configuration Management](#iac-and-configuration-management)
-    - [Computing Clusters](#computing-clusters)
-    - [CI/CD Automation](#cicd-automation)
-    - [Monitoring Solutions](#monitoring-solutions)
-    - [Databases](#databases)
-    - [Programming Languages](#programming-languages)
-    - [Data Analysis](#data-analysis)
-    - [Product Development](#product-development)
-    - [Software Frameworks](#software-frameworks)
-    - [Other Libraries](#other-libraries)
-    - [Security](#security)
 - [Professional Experience](#professional-experience)
     - [DevOps Roles](#devops-roles)
     - [Developer Roles](#developer-roles)
@@ -53,32 +40,23 @@ I have a dream stack it would be:
 
 That said, I am more than used to work with great variety of tools, too many to remember them all, some of them bellow.
 
-### Operating Systems
-- Ubuntu, Centos, Suse, Redhat, Debian, Windows.
-### Clouds
-- AWS, Google Cloud, Azure, VCloud Director.
-### IaaC and Configuration Management
-- Terraform, Ansible
-### Computing Clusters
-- Kubernetes, Swarm, Hadoop, MapReduce
-### Automation for CI/CD
-- Kubernetes, Docker, Git, Github-actions, Jenkins, Bitbucket pipelines
-### Monitoring
-- Opensearch, Grafana, Grafana Cloud, Datadog, Cloudwatch, Prometheus, Data Prepper, OTEL, Fluent-bit, Fluent-d, Logstash, Graylog, Syslog.
-### Databases
-- MySQL, MariaDB, SQLLite, InfluxDB, Postgres, DynamoDB, BigTable, Hive, Elasticsearch, Databricks, Superset, Metabase.
-### Programming languages
-- Python, Typescript, C, Assembler, Bash, Java, JavaScript, Latex, R.
-### Data Analysis
-- Opensearch, R, Elasticsearch, Kibana, Python, Matlab, Tableau, Excel.
-### Product Development
-- Agile, Jira, Project Requirements, Planning and Management.
-### Software Frameworks
-- Spring Boot, Flask, Jboss, Laravel, Kivy, Bootstrap, Express
-### Other Libraries
-- boto3, pandas, websocket, pyserial, ggplot2, refind, csv
-### Security
-- Apache WAFs, DB and OS hardening, HIDS for Kubernetes with Elasticsearch, TWIGS, AWS Well Architected Framework, Currently under CompTIA Security+ Training
+### Technical Skills
+
+| Category | Technologies |
+|----------|-------------|
+| **Operating Systems** | Ubuntu, CentOS, SUSE, RedHat, Debian, Windows |
+| **Cloud Platforms** | AWS, Google Cloud, Azure, VCloud Director |
+| **IaC & Configuration Management** | Terraform, Ansible |
+| **Computing Clusters** | Kubernetes, Swarm, Hadoop, MapReduce |
+| **CI/CD Automation** | Kubernetes, Docker, Git, GitHub Actions, Jenkins, Bitbucket Pipelines |
+| **Monitoring & Observability** | Opensearch, Grafana, Grafana Cloud, Datadog, CloudWatch, Prometheus, Data Prepper, OTEL, Fluent-bit, Fluent-d, Logstash, Graylog, Syslog |
+| **Databases** | MySQL, MariaDB, SQLite, InfluxDB, PostgreSQL, DynamoDB, BigTable, Hive, Elasticsearch, Databricks, Superset, Metabase |
+| **Programming Languages** | Python, TypeScript, C, Assembler, Bash, Java, JavaScript, LaTeX, R |
+| **Data Analysis** | Opensearch, R, Elasticsearch, Kibana, Python, MATLAB, Tableau, Excel |
+| **Product Development** | Agile, Jira, Project Requirements, Planning and Management |
+| **Software Frameworks** | Spring Boot, Flask, JBoss, Laravel, Kivy, Bootstrap, Express |
+| **Libraries** | boto3, pandas, websocket, pyserial, ggplot2, refind, csv |
+| **Security** | Apache WAFs, DB and OS hardening, HIDS for Kubernetes with Elasticsearch, TWIGS, AWS Well Architected Framework, CompTIA Security+ (in progress) |
 
 ## Experience
 
