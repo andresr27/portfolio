@@ -1,8 +1,8 @@
 ## Cover Letter:
 Woah, I couldn't believe it when I saw this Ad on LinkedIn, I know it's a long shot, but I couldn't be any more excited for a job application.
 
-I've always wanted to have a Flipper Zero, but since I transitioned from Electronic to DevOps Engineer I stoped buying stuff as I had my closet full, and still have, 
-of prototype mini computers and microcontrollers as well as all the accessory sensors, shields, custom boards, power supplies and who knows what else.
+I've always wanted to have a Flipper Zero, but since I transitioned from Electronic to DevOps Engineer I stoped buying stuff as I had, and still have, my closet full 
+of prototype mini computers and microcontrollers, as well as all the accessory sensors, shields, custom boards, power supplies and who knows what else.
 
 The Flipper Zero was one of the coolest devices I've seen a review of and just to be closer to the team that made it happen is such a thrilling opportunity for learning.
 
@@ -11,15 +11,16 @@ On my first year of high school while I was learning color theory I use my train
 I pulled from an electric car to drive a flat disc with the rainbow colors drawn as a pie chart until I found the 
 velocity needed to turn it white. None of the other kids could spin it so fast and steady to get the illusion working. 
 
-I have several stories like this, I've rooted my phones, changed the firmware on Sonoffs to connect them to Openhab and 
+I have several stories like this, I've rooted my phones, changed the firmware on Sonoffs to connect them to Openhab2 and 
 designed custom shields and sensor to improve what it was on the market or just for fun. I used to fix general appliances 
-too but only when it was worth the time, which is almost never.
+too, but only when it was worth the time, which is almost never.
 
-Please consider me for this role, I am much more skillful that I can express in these short words.
+The technical stuff is below, I wanted to get you a sense of how long I've troubleshooting and optimizing things.
+Please consider me for this role, I am a lot more skillful that what I can convey in these short words.
 
 ## Application requirements review
 
-Below, I detail how my experience with the tools mentioned and particular projects I worked in may help you decide I'm the perfect guy for the job.
+Below, I detail how my experience with the tools mentioned and particular projects I worked in may help you decide whether I'm the perfect guy for the job.
 
 **Requirements**
 
@@ -44,7 +45,8 @@ I've used Apache, Nginx and HA proxy in Linux, Pfsense and LDAP servers and much
 I'm a little rusty since in the Cloud DevOps/Microservices world is not used as much as in old Linux server based applications. 
 but still use bash a lot to glue everything together for pipelines.
 
-Please check this projects:
+Please check [this project](https://github.com/andresr27/portfolio/blob/master/Readme.md#product-developer-for-antel-ndg on my CV 
+and [this experiece](https://github.com/andresr27/portfolio/blob/master/Readme.md#20182019-reliability-engineer-netlabs-hg-offices-montevideo-uruguay).
 
 
 ### K8 and Docker:
@@ -64,8 +66,6 @@ I'm familiar with importance of:
 - The difference between nginx-controller form K8s and kubernetes-controller from Nginx.
 - How to configure Virtual Servers, Virtual Routes, API, Targets, Service Accounts, Secrets, Config Maps, etc.
 
-Please check this projects:
-
 ### Observability:
 
 I've used all of them, for Nagios I just created configured container from exports from linux instances. 
@@ -74,7 +74,7 @@ They look old compared to these new tools, and you get a true APM with Metrics, 
 Most of my experience comes form building mixed environment Grafana/Prometheus for metrics and Opensearch/Fluent-bit for logging 
 pretty powerful and robust, but it can be simplified.
 
-Please check this projects for above requirements:
+Please check [this project](https://github.com/andresr27/portfolio/blob/master/Readme.md#senior-devops-engineer--upwave) for my best experience with Kubernetes and Observability
 
 
 ## Nice-to-haves
@@ -87,14 +87,10 @@ I still keeps a Windows computer to test Openvpn connections and other agents.
 Is really not that big of deal, everything you in a Linux box you can do it in remote executioner just have to give the 
 right permissions to your infrastructure and  packages used. 
 
-I did this course with the learning trial:
-https://www.linkedin.com/learning/github-actions-for-ci-cd
+I did [this GitHub Actions course](https://www.linkedin.com/learning/github-actions-for-ci-cd) with the learning trial in LinkedIn resulting in this action: https://github.com/andresr27/advanced-github-actions
 
-Resulting in this action: https://github.com/andresr27/advanced-github-actions
-
-The key is to have good testing for stage of CICD peer review process. 
+The key is to have good testing for stage of CI/CD peer review process. 
 I would love to try Blue/Green or Canary deployment someday but no company I've worked for has gotten that far.
-
 
 
 ### Experience configuring L2/L3 network equipment  
@@ -104,35 +100,53 @@ I got to program Atmel microcontroller in C/Assembler configuring the Transceive
 I've physical switches and routers (Cisco), F5 Load Balancer, Linux Apache and Nginx reverse proxies and load balances, including different load balancing strategies like Cookies, sticky, MAC, IP.
 Same for K8s port forwarding and ingress controller configuration.
 
-**Your responsibilities**
+## Your responsibilities
 
-**Managing Flipper Devices infrastructure and k8s**
+### Managing Flipper Devices infrastructure and k8s
 Can't think of any better task than this.
 
-**Improving infrastructure access control policies**
+### Improving infrastructure access control policies
 Policy is the security enforcer, together with configuration management are key and primary aspects that we need ot ensure 
-a secure and reliable infrastructure, while limiting costs. 
-I've configured policies in AWS, in Terraform, in Databricks and in Kubernetes (Services and Networking) and also in Linux.
+a secure and reliable infrastructure while limiting costs surges.
+I've configured policies in AWS, Terraform, Databricks, Kubernetes, and also in Linux.
 
-**Reviewing and improving deployment automation processes**
+### Reviewing and improving deployment automation processes**
 This is the DevOps mindset on my first job as sysAdmin Developer had me go to the office at night just to deploy a Java binary in Jboss.
 These days, I give them everything preconfigured and explained, so hopefully they'd only write to say thank you and that they've love the documentation.
 
-**Expanding existing monitoring systems**
+### Expanding existing monitoring systems
 That probably my best and hardest selling point. I love Opensearch but maybe is too much, yes but once they see it working no ones wants to go back. 
-I like Zabbix we did pretty robust endpoint testing with it and loved the integration with Telegram we used for Notifications and Alerts.
+I like Zabbix, we did pretty robust endpoint testing with it and loved the integration with Telegram we used for Notifications and Alerts.
 
 
-**Building processes for regular infrastructure audits**
+### Building processes for regular infrastructure audits
+
+All the companies I worked in Uruguay were ISO-14001 complient both IBM and ANTEL/HG also implemented ISO-sec. I audited roles, 
+was audited and was responsible for one the security process for the latter. 
+
+In this new age, I would suggest a digital inventory updated regularly that we can run a vulnerability analyzer and build a report that help build the action plan.
+I did this for Upwave using AWS System Manager Inventory, SSM agent and TWIGS to build the reports.
 
 
+### Incident management
 
-**Incident management**
+I like IBM way of thinking in this respect. There needs to be a clear understanding of:
+- Incident classification
+- Acknowledged response times 
+- Backup and rotation plans
+- Clear Scalation progress
+- Right communication tools
+- Clean Alarm panels, no noisy alerts.
+- Centralized easy to find documentation.
+
+We also need to test the process to make problem evident before an incident. The quality of the incident response a reflections of the work we put before it.
+Nothing worse than have your CTO calling you at 6am in the morning to debug a Kubernetes platform running a crashed service with no idea of how it was build or what is really doing.
+These are tough days, unplaned 16 hours troubleshooting sessions is probably the worst in this career, specially when you have plans. 
+In moments like this I appreciate the linux history command, the framework documentation, and some angels that show up to fill me in with key information to resolve it.
 
 
-What we offer
-Choose your work format: office, hybrid, or fully remote from anywhere in the world
-All the necessary equipment for work: computers and software
-Benefits such as VHI, corporate sports, foreign language courses, and therapy sessions
-A five-day workweek with a flexible start of the working day
+### Final note
+
+I hope this gives you rounded idea o what I can deliver, I'm looking forward to talk if you want to know more. If not, thanks for Flippers they 
+are amazing devices and I really want to get them all.
 

@@ -215,6 +215,7 @@ These are some other things I did:
 - Developed Ansible scripts to automate provisioning of EC2 instances for general purposes, bastions and reverse proxies.
 - Managed applications logs with Opensearch.
 - Monitored Kubernetes clusters using Prometheus and Grafana, OTEL and Data prepper.
+- Added Databricks and Kafka connectivity to different data sources.
 
 Unfortunately, I don't have any code to share with you, as it was proprietary and deleted when I finished the job.
 
@@ -255,21 +256,25 @@ Unfortunately, I don't have any code to share with you, as it was proprietary an
 
 - Advanced IaC development using Terraform and Terraform Clould Workspaces
 - Managed Kubernetes clusters.
-- Deployed microservices with Kustomize.
+- Deployed microservices with Kustomize to deploy to cluster in different regions
+- Used Kustomize to integrate NGINX controllers with VS and VSR configurations.
 - Configured AWS services including: EKS, Beanstalk, RDS, Glue, Firehose, EMR, CloudFront, SQS, Athena, and others.
 - Developed Ansible scripts to automate provisioning of compute environments.
 - Managed CI/CD pipelines for CMA BE and FE and other microservices using Octopus, Bitbucket, and JFrog.
 - Managed logs with Opensearch, developed an API client to automate configuration of Indexing, Lifecycle and Dashboard amongst other things.
-- Monitored Kubernetes clusters using Prometheus and Grafana.
+- Monitored Kubernetes clusters using Prometheus and Grafana, Fluent-bit and Opensearch.
 - Increased our IaC coverage significantly by:
   - Adding an EKS cluster and VPC to Terraform and managing most accounts.
   - Deploying and configuring an OpenSearch cluster using Terraform and Python.
   - Fixing broken code in Databricks installations, which had previously been applied manually.
-- Added Databricks and Kafka connectivity to different data sources.
+
 
 Unfortunately, I don't have any code to share with you, as it was proprietary and deleted when I finished the job.
 
 ### DevOps Engineer @ Netlabs
+I started as SysAdmin, studying a lot: RedHat, Hadoop, Elasticsearch, AWS and Azure. Then they to prepare presentations 
+for client and teams. Soon after I proved my worse I was tackling small projects, back for some roles without one and build a couple of PoC.
+
 - Gave talks about [Cloud Infrastructure Best Practices](https://github.com/andresr27/portfolio/tree/master/public/DevOps_Administration/Presentations)
 - Built infrastructure as code using Terraform.
 - Deployed VPCs, ALBs, IGWs, and integrated them with EKS clusters on AWS.
