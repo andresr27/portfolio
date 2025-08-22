@@ -5,7 +5,7 @@
 ## Table of Contents
 
 - [Technical Stack](#technical-stack)
-- [Professional Experience](#professional-experience)
+- [Experience](#experience)
     - [DevOps Roles](#devops-roles)
     - [Developer Roles](#developer-roles)
     - [Site Operations](#site-operations)
@@ -29,8 +29,8 @@
 - [Interests](#interests)
 
 ---
-    
-## Stack
+
+## Technical Stack
 
 I have a dream stack it would be:
 
@@ -61,7 +61,7 @@ That said, I am more than used to work with great variety of tools, too many to 
 
 ## Experience
 
-### DevOps
+### DevOps Roles
 
 #### [2022–2024 DevOps Engineer and Cloud Infrastructure Manager, Windifferent, Montevideo, Uruguay.](https://www.windifferent.com/)
 - My role involved managing AWS infrastructure and application deployments using Terraform, Kubernetes, Octopus, and the Atlassian stack. Later promoted to manager; I oversaw the data access process and network access policies.
@@ -126,7 +126,7 @@ That said, I am more than used to work with great variety of tools, too many to 
 - Integrated Tableau Desktop with Hortonworks Hadoop using JDBC/ODBC for a major telecom provider.
 - Acted as Level 3 System Administrator for Netgate Uruguay's email and hosting services.
 
-### Developer
+### Developer Roles
 
 #### [2020 Python Full Stack Developer, BairesDev, Remote, Montevideo, Uruguay](https://www.biointellisense.com/).
 - Ported Data Science algorithms from Python notebooks to production using GCP Cloud Functions and Pandas.
@@ -177,7 +177,7 @@ Look at [this project](https://github.com/andresr27/portfolio/tree/master?tab=re
 
 # Projects
 
-## DevOps
+## DevOps Projects
 
 ### Senior DevOps Engineer @ Windiffent
 
@@ -187,8 +187,8 @@ running in distributed K8s clusters (multiple clouds, more than 5 and not most k
 Provisioning of the cluster was straight forward with Kustomize, but Instance we had to use Ansible and AWX roles. I delivered that
 and things changed I started helping people with Kafa cluster in K8s and also Databricks setups with Terraform on AWS, remembering it gives me the chills.
 
-Then I was promoted to manager of DevOps and DBAs, but there is separate section for that. 
-These are some other things I did: 
+Then I was promoted to manager of DevOps and DBAs, but there is separate section for that.
+These are some other things I did:
 - Advanced IaC development using Terraform and Terragrunt.
 - Managed Kubernetes clusters created Terraform and Ansible roles in AWS
 - Deployed microservices and operators with Helm including Kafka, Prometheus, Superset, DataPrepper, Grafana Agent.
@@ -202,12 +202,12 @@ Unfortunately, I don't have any code to share with you, as it was proprietary an
 
 ### Cloud infrastructure manager @ Windiffent
 
-My goal was to increase reliability and optimized costs. My team managed AWS infrastructure and application deployments 
+My goal was to increase reliability and optimized costs. My team managed AWS infrastructure and application deployments
 for several teams of the company.
 
-The assets of the company was distributed across more than 10 AWS accounts for connected through different methods Peerings, Proxied connections, Internet VPN. 
+The assets of the company was distributed across more than 10 AWS accounts for connected through different methods Peerings, Proxied connections, Internet VPN.
 
-Difference in how we should manage security, cloud architecture and monitoring led to the termination of my contract. 
+Difference in how we should manage security, cloud architecture and monitoring led to the termination of my contract.
 Bellow more details on other tasks I performed:
 - I oversaw the data access process and network access policies for AWS resources.
 - Created a process to authorize access to data using roles and groups in Databricks.
@@ -217,10 +217,10 @@ Bellow more details on other tasks I performed:
 - Plan migration
 - Create Python Synthetic checker agent to log checks from different networks, ie: VPN, Internet (Whitelist), other accounts, other Orgs.
 - Managed the DBA team to perform:
-  - Hardware upgrades, software updates, schema changes.
-  - Enabled/disabled HA and replication.
-  - Secured networks and implemented password rotation. 
-  - Minimized downtime during operations, by using multiAZ and proper DNS routing
+    - Hardware upgrades, software updates, schema changes.
+    - Enabled/disabled HA and replication.
+    - Secured networks and implemented password rotation.
+    - Minimized downtime during operations, by using multiAZ and proper DNS routing
 - Managed workflow through Jira and tracked work sources to optimize processes and increase capacity.
 - Led the cloud infrastructure team to improve documentation and defining policies for user authorization and resource creation.
 - Used Jira extensively to track project progress and team deliveries.
@@ -245,15 +245,15 @@ Unfortunately, I don't have any code to share with you, as it was proprietary an
 - Managed logs with Opensearch, developed an API client to automate configuration of Indexing, Lifecycle and Dashboard amongst other things.
 - Monitored Kubernetes clusters using Prometheus and Grafana, Fluent-bit and Opensearch.
 - Increased our IaC coverage significantly by:
-  - Adding an EKS cluster and VPC to Terraform and managing most accounts.
-  - Deploying and configuring an OpenSearch cluster using Terraform and Python.
-  - Fixing broken code in Databricks installations, which had previously been applied manually.
+    - Adding an EKS cluster and VPC to Terraform and managing most accounts.
+    - Deploying and configuring an OpenSearch cluster using Terraform and Python.
+    - Fixing broken code in Databricks installations, which had previously been applied manually.
 
 
 Unfortunately, I don't have any code to share with you, as it was proprietary and deleted when I finished the job.
 
 ### DevOps Engineer @ Netlabs
-I started as SysAdmin, studying a lot: RedHat, Hadoop, Elasticsearch, AWS and Azure. Then they to prepare presentations 
+I started as SysAdmin, studying a lot: RedHat, Hadoop, Elasticsearch, AWS and Azure. Then they to prepare presentations
 for client and teams. Soon after I proved my worse I was tackling small projects, back for some roles without one and build a couple of PoC.
 
 - Gave talks about [Cloud Infrastructure Best Practices](https://github.com/andresr27/portfolio/tree/master/public/DevOps_Administration/Presentations)
@@ -267,9 +267,9 @@ for client and teams. Soon after I proved my worse I was tackling small projects
 
 ### SRE Engineer for Antel ASVAC @ Netlabs
 
-During my time at Netlabs, I had the opportunity to work on critical infrastructure for Antel, Uruguay's national telecommunications 
-company. My role focused on maintaining and enhancing the single sign-on portal that served as the gateway to various Antel 
-applications. This project required a meticulous approach to system updates, security hardening, and performance optimization to 
+During my time at Netlabs, I had the opportunity to work on critical infrastructure for Antel, Uruguay's national telecommunications
+company. My role focused on maintaining and enhancing the single sign-on portal that served as the gateway to various Antel
+applications. This project required a meticulous approach to system updates, security hardening, and performance optimization to
 ensure seamless service delivery to thousands of users.
 
 - Applied regular updates to the single sign-on portal for Antel applications.
@@ -281,10 +281,10 @@ ensure seamless service delivery to thousands of users.
 <figure>  <img src="public/DevOps_Administration/Micro_Services/ELK/waf_dashboard_example.png" alt="Opensearch reliability dashboards."> </figure>
 
 ### DevOps Engineer @ Upwork
-    
-As a freelance DevOps engineer, I worked with various clients to containerize their applications and establish robust 
-deployment pipelines on AWS. This role allowed me to work with diverse technology stacks and solve unique infrastructure 
-challenges for each client. I particularly enjoyed helping startups establish their cloud foundations with scalable, cost-effective 
+
+As a freelance DevOps engineer, I worked with various clients to containerize their applications and establish robust
+deployment pipelines on AWS. This role allowed me to work with diverse technology stacks and solve unique infrastructure
+challenges for each client. I particularly enjoyed helping startups establish their cloud foundations with scalable, cost-effective
 solutions that could grow with their business.
 
 - Implemented stateless Docker containers on AWS.
@@ -295,8 +295,8 @@ solutions that could grow with their business.
 
 ### System Administrator for XN Brasil
 
-I supported XN Brasil in stabilizing their production environment and improving their deployment processes. This role involved 
-deep diving into full-stack application debugging and establishing more reliable deployment practices. 
+I supported XN Brasil in stabilizing their production environment and improving their deployment processes. This role involved
+deep diving into full-stack application debugging and establishing more reliable deployment practices.
 I helped transition their PHP/Laravel application to AWS and implemented Jira Service Desk to streamline their internal support
 processes.
 
@@ -304,13 +304,13 @@ processes.
 - Deployed a PHP/Laravel application to AWS.
 - Deployed and configured Jira Service Desk.
 
-## Developer
+## Developer Projects
 
 ### Python Full Stack Developer for BioIntellisense
 
-Working with BairesDev for BioIntellisense, I contributed to biomedical IoT projects that required both data science expertise 
-and production engineering skills. My main responsibility was bridging the gap between research algorithms and production-ready 
-systems, ensuring that data science models could run efficiently and reliably in a cloud environment while maintaining scientific 
+Working with BairesDev for BioIntellisense, I contributed to biomedical IoT projects that required both data science expertise
+and production engineering skills. My main responsibility was bridging the gap between research algorithms and production-ready
+systems, ensuring that data science models could run efficiently and reliably in a cloud environment while maintaining scientific
 accuracy.
 
 - Used the Pandas framework to analyze data and generate alerts.
@@ -321,9 +321,9 @@ accuracy.
 
 ### Product Developer for Antel NDG
 
-At Netlabs, I worked on designing infrastructure solutions for Antel's NDG project, focusing on creating a robust IaaS 
-offering using vCloud Director. This project involved architecting multi-tenant environments with proper isolation, security, 
-and monitoring. I enjoyed the challenge of building enterprise-grade solutions that met the high reliability standards expected 
+At Netlabs, I worked on designing infrastructure solutions for Antel's NDG project, focusing on creating a robust IaaS
+offering using vCloud Director. This project involved architecting multi-tenant environments with proper isolation, security,
+and monitoring. I enjoyed the challenge of building enterprise-grade solutions that met the high reliability standards expected
 from a national telecommunications provider.
 
 <figure>  <img src="public/images/basic_networkingNDG.png" alt="Reference architecture."> </figure>
@@ -336,7 +336,7 @@ from a national telecommunications provider.
 ### Full Stack Developer for Boxes
 
 As Technical Leader at Boxes, I led the development of interactive vending machines, combining hardware and software innovation.
-This entrepreneurial experience taught me how to balance technical excellence with business constraints. I particularly enjoyed the 
+This entrepreneurial experience taught me how to balance technical excellence with business constraints. I particularly enjoyed the
 cross-disciplinary nature of the work, which ranged from circuit board design to cloud administration and everything in between.
 
 - [Replaced PyGame with Kivy for improved embedded UI performance.](https://github.com/andresr27/portfolio/tree/master/public/Software_Development/Device%20UI-UX/Pi2Arduino)
