@@ -20,15 +20,12 @@ Please consider me for this role, I am a lot more skillful that what I can conve
 
 ## Application requirements review
 
-Below, I detail how my experience with the tools mentioned and particular projects I worked in may help you decide whether I'm the perfect guy for the job.
 
-**Requirements**
-
-    Linux – advanced level: architectural knowledge, deployment, debugging
-    K8S – advanced level: architecture, public and private clouds, networking (including service mesh), debugging
-    Docker – packaging web services and auxiliary tools
-    Observability – Monitoring (Zabbix/Nagios, etc), Logging (graylog, logstash, etc), Metrics (Prometheus) Networks – OSI Model, Linux network stack
-    Python – for practical tasks related to automation of deployment, testing, monitoring
+- **Linux** – advanced level: architectural knowledge, deployment, debugging
+- **K8S** – advanced level: architecture, public and private clouds, networking (including service mesh), debugging
+- **Docker** – packaging web services and auxiliary tools
+- **Observability** – Monitoring (Zabbix/Nagios, etc), Logging (graylog, logstash, etc), Metrics (Prometheus) Networks – OSI Model, Linux network stack
+- **Python** – for practical tasks related to automation of deployment, testing, monitoring
 
 There are probably some people better than I to do troubleshooting in these kind of platforms, but I don't think you can find one as easily.
 Seriously, my brain is designed for this and my problem is to let go, so I can eat, sleep and survive while I'm debugging an issue.
@@ -45,7 +42,7 @@ I've used Apache, Nginx and HA proxy in Linux, Pfsense and LDAP servers and much
 I'm a little rusty since in the Cloud DevOps/Microservices world is not used as much as in old Linux server based applications. 
 but still use bash a lot to glue everything together for pipelines.
 
-Please check [this project](https://github.com/andresr27/portfolio/blob/master/Readme.md#product-developer-for-antel-ndg on my CV 
+Please check [this project](https://github.com/andresr27/portfolio/blob/master/Readme.md#product-developer-for-antel-ndg) on my CV 
 and [this experiece](https://github.com/andresr27/portfolio/blob/master/Readme.md#20182019-reliability-engineer-netlabs-hg-offices-montevideo-uruguay).
 
 
@@ -74,7 +71,7 @@ They look old compared to these new tools, and you get a true APM with Metrics, 
 Most of my experience comes form building mixed environment Grafana/Prometheus for metrics and Opensearch/Fluent-bit for logging 
 pretty powerful and robust, but it can be simplified.
 
-Please check [this project](https://github.com/andresr27/portfolio/blob/master/Readme.md#senior-devops-engineer--upwave) for my best experience with Kubernetes and Observability
+Please check these project for details on my experience with [Kubernetes](ttps://github.com/andresr27/portfolio/blob/master/Readme.md#senior-devops-engineer--upwave) and [Observability](https://github.com/andresr27/portfolio/blob/master/Readme.md#sre-engineer-for-antel-asvac--netlabs)
 
 
 ## Nice-to-haves
@@ -87,22 +84,24 @@ I still keeps a Windows computer to test Openvpn connections and other agents.
 Is really not that big of deal, everything you in a Linux box you can do it in remote executioner just have to give the 
 right permissions to your infrastructure and  packages used. 
 
-I did [this GitHub Actions course](https://www.linkedin.com/learning/github-actions-for-ci-cd) with the learning trial in LinkedIn resulting in this action: https://github.com/andresr27/advanced-github-actions
+I did [this GitHub Actions course](https://www.linkedin.com/learning/github-actions-for-ci-cd) with the learning trial in LinkedIn resulting in [this action](https://github.com/andresr27/advanced-github-actions). 
 
 The key is to have good testing for stage of CI/CD peer review process. 
 I would love to try Blue/Green or Canary deployment someday but no company I've worked for has gotten that far.
 
 
 ### Experience configuring L2/L3 network equipment  
-So, I as electronic engineer we have a solid foundation in Networking models. I, particularly, did my Thesis building devices
+As an electronic engineer we have a solid foundation in Networking models. I, particularly, did my Thesis building devices
 that implemented an RS-485 over FHDSS (Frequency Hopping Direct Spread Spectrum) to interconnect industrial device over a master salve wireless network.
-I got to program Atmel microcontroller in C/Assembler configuring the Transceiver interruption response routines.
-I've physical switches and routers (Cisco), F5 Load Balancer, Linux Apache and Nginx reverse proxies and load balances, including different load balancing strategies like Cookies, sticky, MAC, IP.
+
+I've got to program Atmel microcontroller in C/Assembler configuring the Transceiver interruption response routines.
+
+I've also installed or configured physical switches and routers (Cisco), F5 Load Balancer, Linux Apache and Nginx reverse proxies and load balances, including different load balancing algorithms like Cookie, RoundRobin, least_connections, IP and others.
 Same for K8s port forwarding and ingress controller configuration.
 
-## Your responsibilities
+## Your responsibilities:
 
-### Managing Flipper Devices infrastructure and k8s
+###  Managing Flipper Devices infrastructure and k8s
 Can't think of any better task than this. Check [my experience at Boxes](https://github.com/andresr27/portfolio/tree/master?tab=readme-ov-file#20142019-technical-leader-boxes-montevideo-uruguay),
 it was one of the coolest side projects I've had and I really made a difference the software, the hardware and management console, while training future engineer take the lead.
 
