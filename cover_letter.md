@@ -122,8 +122,8 @@ I like Zabbix, we did pretty robust endpoint testing with it and loved the integ
 
 ### Building processes for regular infrastructure audits
 
-All the companies I worked in Uruguay were ISO-14001 complient both IBM and ANTEL/HG also implemented ISO-sec. I audited roles, 
-was audited and was responsible for one the security process for the latter. 
+All the companies I worked in Uruguay were ISO-9001 compliant and both IBM and ANTEL/HG also implemented ISO-27001. I audited roles, 
+was audited and was responsible for one the security process for the latter.
 
 In this new age, I would suggest a digital inventory updated regularly that we can run a vulnerability analyzer and build a report that help build the action plan.
 I did this for Upwave using AWS System Manager Inventory, SSM agent and TWIGS to build the reports.
