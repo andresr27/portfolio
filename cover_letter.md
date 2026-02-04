@@ -1,108 +1,48 @@
-## Cover Letter
+# Senior DevOps Engineer - Cover Letter
 
-Your DevOps role is the perfect intersection of my professional cloud expertise and my lifelong identity as a hardware engineer. Having followed the Flipper Zero since its inception, I admire not just the product itself but the brilliant execution of dream tool for network engineers. The opportunity to apply my skills in Kubernetes, observability, and security to support the infrastructure behind this great new device is incredibly compelling, it looks like a great tool to increase productivity.
+Dear Howdy.com Hiring Team,
 
-My engineering mindset was forged through hands-on experimentation. As a teenager, I used a train variablle transformer and a DC motor from an electric track car to build a color wheel, determined to discover the exact RPM needed to achieve perceptual white—an early lesson in persistent, applied problem-solving that still drives my approach to troubleshooting and optimization today. This innate curiosity led me to root phones, flash custom firmware on Sonoffs, and design custom PCBs and is the foundation of a passion that aligns perfectly with the Flipper ethos.
+I am writing to express my strong interest in the Senior DevOps Engineer position at Howdy.com. With extensive experience in cloud infrastructure, Kubernetes orchestration, and automated deployment pipelines, I am confident in my ability to design, implement, and maintain the scalable systems necessary to support your mission of connecting US companies with top-tier Latin American talent.
 
-I reviewed your technical requirements below, please use [this link](https://github.com/andresr27/portfolio/blob/master/cover_letter.md) if you'd like better formating.
+## Professional Experience Alignment
 
-## Application Requirements Review
+**Cloud Infrastructure & Scalability:** With 5+ years of DevOps experience, I have designed and maintained high-availability AWS environments with particular attention to cross-region optimization—essential for US-LatAm operations. My approach to infrastructure emphasizes reliability, security, and cost-efficiency through comprehensive monitoring and automation.
 
-- **Linux** – Advanced level: architectural knowledge, deployment, debugging 
-- **K8s** – Advanced level: architecture, public and private clouds, networking (including service mesh), debugging
-- **Docker** – Packaging web services and auxiliary tools
-- **Observability** – Monitoring (Zabbix/Nagios, etc.), Logging (Graylog, Logstash, etc.), Metrics (Prometheus)
-- **Networks** – OSI Model, Linux network stack
-- **Python** – For practical tasks related to automation of deployment, testing, monitoring
+**Kubernetes & Container Orchestration:** I have deployed and managed Kubernetes clusters for diverse applications, from microservices architectures to full-stack web applications. My experience includes implementing production-ready configurations with proper resource management, health checks, and rolling update strategies.
 
-### Linux:
+**Infrastructure as Code:** I specialize in Terraform implementations using a modular, layer-based approach that ensures consistency across development, staging, and production environments. This methodology supports rapid iteration while maintaining compliance and security standards.
 
-I joined Netlabs after being a Data Center Technical Leader for IBM simply because they were a Red Hat partner and known for having the best Linux sysadmins. I went from being responsible for two data centers' operations to a junior sysadmin just to learn from the best mentors—and I did, at least for Linux.
+## Technical Requirements Match
 
-While my recent focus has been on cloud-native environments, I maintain deep hands-on Linux expertise. I've worked with anything from iptables, SELinux, file ACLs, LVM, firewalls, user management and permissions, and file systems including Ceph, GlusterFS, and NFS. I've used Apache, Nginx, and HAProxy on Linux, pfSense, LDAP servers, and much more.
+- **Linux**: Advanced architectural knowledge from data center operations to cloud-native implementations
+- **AWS**: Comprehensive experience with multi-region deployments, IAM policies, and security best practices
+- **Terraform**: Production experience with reusable modules and environment-specific configurations
+- **Kubernetes/Docker**: Hands-on deployment and optimization of containerized applications
+- **CI/CD**: Automated pipeline implementation with GitHub Actions and GitLab CI
+- **Monitoring**: Implementation of Prometheus/Grafana stacks with Zabbix for enterprise alerting
 
-Please check [this project](https://github.com/andresr27/portfolio/blob/master/Readme.md#product-developer-for-antel-ndg) on my CV and [this experience](https://github.com/andresr27/portfolio/blob/master/Readme.md#20182019-reliability-engineer-netlabs-hg-offices-montevideo-uruguay).
+## Infrastructure Management Approach
 
-### K8s and Docker:
+**System Reliability:** I implement robust monitoring solutions that provide comprehensive visibility into system performance, enabling proactive issue resolution before they impact users. My experience with Prometheus for metrics and OpenSearch/Fluent Bit for logging supports effective troubleshooting across distributed systems.
 
-I've deployed several types of applications to Kubernetes, including Spring Boot built with Gradle and Maven, Python application modules, and Node websites using Express and Next—I even learned about Nuxt because of this job posting.
+**Security & Compliance:** Having worked with organizations implementing ISO 27001 standards, I prioritize security in infrastructure design. This includes implementing least-privilege access controls, regular vulnerability assessments, and audit-ready documentation—critical considerations for multinational operations.
 
-I'm familiar with the importance of:
-- Light containers for better resource allocation
-- Build-Tag-Push processes and registry management, as well as using the correct image update parameters
-- Proper liveness and readiness checks to improve availability
-- Actuators and similar tools to publish internal metrics for better monitoring and scaling, both horizontally and vertically
-- Managing virtual and physical volumes configuration to handle data retention after deployment deletion, for example
-- How to deploy DaemonSets, StatefulSets, Deployments, CronJobs, etc.
-- How to migrate cluster versions and loads to specific node groups
-- The difference between nginx-controller from K8s and kubernetes-controller from Nginx
-- How to configure Virtual Servers, Virtual Routes, APIs, Targets, Service Accounts, Secrets, ConfigMaps, etc.
+**Automation Excellence:** I focus on creating reproducible, documented processes that reduce deployment friction while maintaining security. My GitHub Actions implementations demonstrate automated deployments to both development (Minikube) and production environments, with proper testing and validation at each stage.
 
-### Observability:
+## Collaborative Engineering Mindset
 
-I've used all of them. For Nagios, I configured containers images from exports from Linux instances. However, I would use Opensearch with OTEL and Data Prepper as a substitute for all of them. They look old compared to these new tools, and you get a true APM with metrics, logging, and traces for a fraction of the cost of a SaaS product. 
+My technical approach emphasizes team enablement through comprehensive documentation, knowledge sharing, and process standardization. This aligns with Howdy.com's "Sports Team" value, where collective success depends on each member's ability to contribute effectively.
 
-Most of my experience comes from building mixed-environment Grafana/Prometheus for metrics and OpenSearch/Fluent-bit for logging—it's powerful and robust, but it can be simplified.
+## Multinational Infrastructure Experience
 
-Please check these projects for details on my experience with [Kubernetes](https://github.com/andresr27/portfolio/blob/master/Readme.md#senior-devops-engineer--upwave) and [Observability](https://github.com/andresr27/portfolio/blob/master/Readme.md#sre-engineer-for-antel-asvac--netlabs).
+Understanding the technical considerations of cross-border operations, I have experience with network optimization for distributed teams and compliance-aware infrastructure design. This background supports Howdy.com's mission of seamless US-LatAm connectivity.
 
-## Nice-to-Haves
+Thank you for considering my application. I am particularly interested in how my infrastructure experience could support Howdy.com's growth and mission. I have followed your progress since the Y Combinator program and am impressed with your approach to talent connectivity across borders.
 
-### macOS and Windows Skills
+I look forward to discussing how my technical skills and systematic approach to DevOps could contribute to your team's success.
 
-I used macOS in my last two jobs and managed Windows servers for SCADA systems with MS SQL. I've also used Windows in other jobs, especially earlier ones. I still keep a Windows computer to test OpenVPN connections and other agents.
+Sincerely,
 
-### Knowledge of GitHub/GitLab CI/CD
+Andrés Renaud
 
-I completed [this GitHub Actions course](https://www.linkedin.com/learning/github-actions-for-ci-cd) with the LinkedIn Learning trial, resulting in [this action](https://github.com/andresr27/advanced-github-actions).
-
-The key is to have good testing for each stage of the CI/CD peer review process. I would love to try blue/green or canary deployments someday, but no company I've worked for has gotten that far.
-
-### Experience Configuring L2/L3 Network Equipment
-
-As an electronic engineer, I have a solid foundation in networking models. In particular, I did my thesis building an electronic board that implemented RS-485 over FHSS (Frequency Hopping Spread Spectrum) wireless connectivity to reduce cabling in industrial automation.
-
-I programmed Atmel microcontrollers in C/Assembler with SPI and JTAG, configuring the transceiver interruption response routines. I wrote the state machine that implemented L2/L3 communication using WPAN IEEE 802.15.4.
-
-I've also installed or configured physical switches and routers (Cisco), F5 Load Balancer, Linux Apache and Nginx reverse proxies and load balancers, including different load balancing algorithms like cookie-based, round-robin, least_connections, IP, and others. Same for K8s port forwarding and ingress controller configuration.
-
-## How I will meet responsibilities
-
-### Managing Flipper Devices Infrastructure and K8s
-
-I can't think of a more exciting task. My experience ensuring high availability for distributed systems would be directly applicable to maintaining the rock-solid backend required for device telemetry and firmware OTA updates that Flipper Zero users rely on. Check out [my experience at Boxes](https://github.com/andresr27/portfolio/tree/master?tab=readme-ov-file#20142019-technical-leader-boxes-montevideo-uruguay)—it was one of the coolest side projects I've had, and I really made a difference in the software, the hardware, and the management console, while training future engineers to take the lead.
-
-### Improving Infrastructure Access Control Policies
-
-For a company whose community is built on security research, robust access control is existential.
-
-I've implemented granular, least-privilege policies in AWS and K8s that would be crucial for protecting your build environments and sensitive user data.
-
-### Reviewing and Improving Deployment Automation Processes
-
-This is the DevOps mindset. In my first job as a sysadmin/developer, I had to go to the office at night just to deploy a Java binary in JBoss. These days, I give them everything preconfigured and explained, so hopefully they'd only write to say thank you and that they loved the documentation.
-
-### Expanding Existing Monitoring Systems
-
-This is probably my best and hardest selling point. I love OpenSearch, but maybe it's too much—yet once people see it working, no one wants to go back. I also like Zabbix; we did pretty robust endpoint testing with it and loved the integration with Telegram we used for notifications and alerts.
-
-### Building Processes for Regular Infrastructure Audits
-
-All the companies I worked for in Uruguay were ISO 9001 compliant, and both IBM and ANTEL/HG also implemented ISO 27001. I audited roles, was audited, and was responsible for one of the security processes for the latter.
-
-In this new age, I would suggest a digital inventory updated regularly that we can run a vulnerability analyzer on and build a report to help create an action plan. I did this for Upwave using AWS System Manager Inventory, SSM agent, and used TWIGS to build the reports.
-
-### Incident Management
-
-My goal is always to build systems so resilient that incidents are rare, and when they do occur, the process is so smooth it becomes a learning opportunity, not a panic. There needs to be a clear understanding of:
-- Incident classification
-- Acknowledged response times
-  - OnCall backup list and rotation plans
-- Clear escalation processes
-- Right communication tools
-- Clean alarm panels—no noisy alerts
-- Centralized, easy-to-find documentation
-
-## Final Note
-
-I am confident that my unique blend of hardware-hacking passion and professional DevOps expertise aligns perfectly with the needs of Flipper Devices. I am eager to discuss how I can contribute to your team and help support the incredible Flipper ecosystem. Thank you for your time and consideration
+Check this repository to a sample of DevOps repo: https://github.com/andresr27/devops_kubernetes_sample
