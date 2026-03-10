@@ -45,7 +45,7 @@ That said, I am experienced with a wide variety of tools—too many to remember 
 
 | Technology/Skill | Approximate Years | Level of Expertise |
 |------------------|-------------------|---------------------|
-| **AWS** | 9 years (2017‑present) | Expert |
+| **AWS** | 16 years (2010‑present) | Expert |
 | **Terraform** | 6 years (2020‑present) | Expert |
 | **Kubernetes** | 6 years (2020‑present) | Advanced |
 | **Python** | 12 years (2014‑present) | Advanced |
@@ -54,7 +54,7 @@ That said, I am experienced with a wide variety of tools—too many to remember 
 | **Docker/Containers** | 8 years (2018‑present) | Advanced |
 | **Infrastructure as Code** | 6 years (2020‑present) | Expert |
 | **Monitoring (Prometheus, Grafana, CloudWatch)** | 6 years (2020‑present) | Advanced |
-| **Networking (AWS VPC, VPN, Route53)** | 9 years (2017‑present) | Advanced |
+| **Networking (AWS VPC, VPN, Route53)** | 16 years (2010‑present) | Advanced |
 | **Ansible** | 8 years (2018‑present) | Intermediate |
 | **Git** | 12 years (2014‑present) | Advanced |
 | **Bash Scripting** | 19 years (2007‑present) | Expert |
@@ -196,6 +196,7 @@ Look at [this project](https://github.com/andresr27/portfolio/tree/master?tab=re
 - Upgraded WAN infrastructure to enable unified communications.
 - Installed industrial radio links to improve site-wide networking.
 - Implemented video-over-MPLS conferencing with LifeSize hardware.
+- Started using AWS services in 2010 for infrastructure automation and data processing tasks.
 
 #### Other
 - In 2006, worked at the Municipality of Montevideo repairing and delivering computer hardware while finishing my Electrical Engineering degree.
