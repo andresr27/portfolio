@@ -7,17 +7,17 @@ My extensive hands‑on experience with AWS, Terraform, and Kubernetes aligns pr
 
 ### Key Technical Skills & Experience Summary
 
-| Skill Area | Key Technologies | Years of Experience | Level of Expertise |
-|------------|------------------|-----------|---------------------|
-| **Cloud Infrastructure** | AWS, Azure, Google Cloud | 15+ years | Expert |
-| **Infrastructure as Code** | Terraform, Ansible, CloudFormation | 9+ years  | Expert |
-| **Container Orchestration** | Kubernetes (EKS, AKS), Docker, ECS | 6+ years  | Advanced |
-| **CI/CD & Automation** | GitHub Actions, Jenkins, Bitbucket Pipelines | 9+ years  | Advanced |
+| Skill Area Required            | Key Technologies | Years of Experience | Level of Expertise |
+|--------------------------------|------------------|-----------|---------------------|
+| **Cloud Infrastructure**       | AWS, Azure, Google Cloud | 15+ years | Expert |
+| **Infrastructure as Code**     | Terraform, Ansible, CloudFormation | 9+ years  | Expert |
+| **Container Orchestration**    | Kubernetes (EKS, AKS), Docker, ECS | 6+ years  | Advanced |
+| **CI/CD & Automation**         | GitHub Actions, Jenkins, Bitbucket Pipelines | 9+ years  | Advanced |
 | **Monitoring & Observability** | Prometheus, Grafana, CloudWatch, OpenSearch | 6+ years  | Advanced |
-| **Networking & Security** | AWS VPC, VPN, Route 53, Security Groups, WAF | 15+ years | Advanced |
-| **Scripting & Development** | Python, Bash, TypeScript, Java | 12+ years | Advanced |
-| **Database Management** | MySQL, PostgreSQL, DynamoDB, BigTable | 3+ years  | Intermediate |
-| **Compliance & Standards** | ISO 27001/27002, SOC 2, GDPR, HIPAA | 2+ years  | Intermediate |
+| **Networking & Security**      | AWS VPC, VPN, Route 53, Security Groups, WAF | 15+ years | Advanced |
+| **Scripting & Development**    | Python, Bash, TypeScript, Java | 12+ years | Advanced |
+| **Database Management**        | MySQL, PostgreSQL, DynamoDB, BigTable | 3+ years  | Intermediate |
+| **Compliance & Standards**     | ISO 27001/27002, SOC 2, GDPR, HIPAA | 2+ years  | Intermediate |
 
 **AWS & Terraform Expertise:** I have extensive experience architecting and implementing complex AWS environments using Terraform as the primary Infrastructure as Code tool. My work includes:
 - Designing and deploying multi‑region, multi‑account architectures with VPC peering, Transit Gateway, site‑to‑site VPN, and AWS PrivateLink.
