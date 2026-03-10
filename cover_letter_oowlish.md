@@ -1,4 +1,5 @@
-Dear Oowlish Hiring Team, 
+Dear Oowlish Hiring Team,
+
 I am writing to express my strong interest in the Senior Cloud Engineer position. With over five years of hands‑on experience designing, building, and managing secure, scalable AWS infrastructure, I bring deep expertise in Terraform, infrastructure automation, and comprehensive monitoring solutions—exactly the skills your team needs to drive operational excellence.
 
 ## Core Strengths for This Role
