@@ -2,7 +2,7 @@
 
 Dear Oowlish Hiring Team,
 
-I am writing to express my enthusiastic interest in the Senior Cloud Infrastructure Engineer position at Oowlish. With over five years of hands‑on experience designing, building, and operating scalable, secure cloud infrastructure across AWS. I am confident that my background aligns perfectly with your need for an engineer who can lead cloud infrastructure projects, such as the integration between AWS and Heroku to improve application and feature delivery.
+I am writing to express my interest in the Senior Cloud Infrastructure Engineer position at Oowlish. With over five years of hands‑on experience designing, building, and operating scalable, secure cloud infrastructure across AWS. I am confident that my background aligns perfectly with your need for an engineer who can lead cloud infrastructure projects, such as the integration between AWS and Heroku to improve application and feature delivery.
 
 ## Professional Experience Alignment
 
@@ -44,7 +44,7 @@ Having worked in environments with strict compliance requirements, I am adept at
 
 Thank you for considering my application. I have followed Oowlish’s growth and am impressed by your commitment to building robust, scalable cloud solutions. I am eager to bring my infrastructure‑first mindset, hands‑on technical skills, and collaborative approach to your team, helping to elevate your cloud maturity and support your long‑term success.
 
-I look forward to discussing how my experience can contribute to Oowlish’s infrastructure and platform goals.
+I look forward to discussing how my experience can contribute to Oowlish’s client infrastructure and platform goals.
 
 Sincerely,
 
