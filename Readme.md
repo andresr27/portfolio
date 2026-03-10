@@ -322,11 +322,13 @@ As Technical Leader at Boxes, I led the development of interactive vending machi
 
 # Education
 
-## Courses
-- 2025 Hackerrank Python Training.
-- 2025 Entry-Level Security – [Cybrary](https://app.cybrary.it/)
+## Certifications and ISO Standards
+
+### Certifications
+- 2025 Hackerrank Python Training
+- 2025 Entry-Level Security – Cybrary
 - 2024 Introduction to Deep Q Learning – Udemy
-- 2022 Terraform Associate Certification – [HashiCorp](https://developer.hashicorp.com/terraform/tutorials/certification-003/associate-study-003)
+- 2022 Terraform Associate Certification – HashiCorp
 - 2022 Terraform Beginner to Advanced – Udemy
 - 2020 Amazon Elastic Kubernetes Service Workshop – Online
 - 2019 Use Python to Access Web Data – Online
@@ -337,12 +339,12 @@ As Technical Leader at Boxes, I led the development of interactive vending machi
 - 2017 AWS Solutions Architect – Online
 - 2015 Introduction to Agile – IBM, Montevideo, Uruguay
 
-## Academic Studies
-- 2009–2012 Impedance Spectroscopy Specialization – Facultad de Ciencias, UDELAR, Montevideo, Uruguay  
-  *Field of research: [Impedance spectroscopy over modified electrodes for specific polysaccharide detection](https://github.com/andresr27/portfolio/blob/master/Electric_Engineering/Impedance_Spectroscopy_over_metal-protein_interactions/Poster_impedancia5.pdf).*
-- 2001–2008 Electrical Engineering – Facultad de Ingeniería, UDELAR, Montevideo, Uruguay  
-  *[Thesis: Modbus wireless communication hardware for home and industrial automation.](https://github.com/andresr27/portfolio/blob/master/Electric_Engineering/Wireless_WPAN_devices_with_Modbus-TCP/Poster_WiDO.jpg)*
-- 1999–2001 Pure and Applied Science – Vanier College, Montreal, Canada
+### ISO Standards Experience
+- ISO 27001: Information Security Management
+- ISO 27002: Security Controls
+- SOC 2 Type II Compliance
+- GDPR: General Data Protection Regulation
+- HIPAA: Health Insurance Portability and Accountability Act
 
 ## Public Speaking
 

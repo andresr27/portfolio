@@ -12,15 +12,24 @@ I am writing to express my interest in the Senior Cloud Infrastructure Engineer 
 
 **Monitoring & Operational Excellence:** I build observable systems using AWS CloudWatch, Prometheus, and Grafana, ensuring real‑time visibility and proactive issue resolution.
 
-**Bonus Areas:** I have practical experience with Windows Server management, MS SQL Server, Active Directory, and virtual desktop environments, sufficient for support tasks in hybrid scenarios.
+## Certifications and ISO Standards
 
-## Technical Highlights
+**Certifications:**
+- Terraform Associate Certification (HashiCorp, 2022)
+- TEFL English Certificate (Thresholds Institute, Prague, 2019)
+- Agile Scrum Master Introduction (XN, Montevideo, 2018)
+- Introduction to Tableau (Deloitte, Montevideo, 2017)
+- Azure Cloud Specialist + Open Source (2017)
+- AWS Solutions Architect (2017)
+- Introduction to Agile (IBM, Montevideo, 2015)
+- CompTIA Security+ (In Progress)
 
-- **AWS:** Multi‑region high‑availability networks, with a focus on networking and monitoring.
-- **Terraform:** Modular, compliant infrastructure provisioning.
-- **Networking:** VPC, Transit Gateway, VPN, PrivateLink, Route 53, and firewall configurations.
-- **Scripting & Automation:** Python and Bash for infrastructure automation.
-- **CI/CD & Security:** Pipeline integration and compliance with SOC 2/ISO 27001, plus hands‑on training in HIPAA and GDPR compliance from my roles at Biointellisense and Upwave.
+**ISO Standards Experience:**
+- ISO 27001: Information Security Management
+- ISO 27002: Security Controls
+- SOC 2 Type II Compliance
+- GDPR: General Data Protection Regulation
+- HIPAA: Health Insurance Portability and Accountability Act
 
 ## Why I’m a Strong Fit
 
