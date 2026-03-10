@@ -69,6 +69,20 @@ That said, I am experienced with a wide variety of tools—too many to remember 
 | **Data Pipelines (Kafka, Databricks)** | 4 years (2022‑present) | Intermediate |
 | **Agile/Scrum** | 11 years (2015‑present) | Advanced |
 
+### Quick Reference Table for Senior Cloud Engineer Role
+
+| Skill Area | Key Technologies | Years of Experience | Expertise Level |
+|------------|------------------|---------------------|-----------------|
+| **Cloud Platforms** | AWS, Azure, GCP | 16 years (AWS) | Expert |
+| **Infrastructure as Code** | Terraform, Ansible | 6+ years | Expert |
+| **Container Orchestration** | Kubernetes, Docker, ECS | 6+ years | Advanced |
+| **CI/CD & Automation** | GitHub Actions, Jenkins, Bitbucket | 8+ years | Advanced |
+| **Monitoring & Observability** | Prometheus, Grafana, CloudWatch | 6+ years | Advanced |
+| **Networking & Security** | AWS VPC, VPN, WAF, Security Groups | 16 years | Advanced |
+| **Scripting & Development** | Python, Bash, TypeScript | 12+ years | Advanced |
+| **Database Management** | MySQL, PostgreSQL, DynamoDB | 12+ years | Intermediate |
+| **Compliance Standards** | ISO 27001, SOC 2, GDPR, HIPAA | 6+ years | Intermediate |
+
 ### Technical Skills
 
 | Category | Technologies |

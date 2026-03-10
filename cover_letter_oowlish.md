@@ -5,6 +5,20 @@ I am writing to express my strong interest in the Senior Cloud Engineer position
 
 With over **16 years of AWS experience**, **6 years of Terraform expertise**, and **6 years of Kubernetes** hands‑on practice, I bring a depth of knowledge that directly aligns with the demands of a senior cloud engineering role.
 
+### Key Technical Skills & Experience Summary
+
+| Skill Area | Key Technologies | Years of Experience | Level of Expertise |
+|------------|------------------|---------------------|---------------------|
+| **Cloud Infrastructure** | AWS, Azure, Google Cloud | 16 years (AWS since 2010) | Expert |
+| **Infrastructure as Code** | Terraform, Ansible, CloudFormation | 6+ years | Expert |
+| **Container Orchestration** | Kubernetes (EKS, AKS), Docker, ECS | 6+ years | Advanced |
+| **CI/CD & Automation** | GitHub Actions, Jenkins, Bitbucket Pipelines | 8+ years | Advanced |
+| **Monitoring & Observability** | Prometheus, Grafana, CloudWatch, OpenSearch | 6+ years | Advanced |
+| **Networking & Security** | AWS VPC, VPN, Route 53, Security Groups, WAF | 16 years | Advanced |
+| **Scripting & Development** | Python, Bash, TypeScript, Java | 12+ years | Advanced |
+| **Database Management** | MySQL, PostgreSQL, DynamoDB, BigTable | 12+ years | Intermediate |
+| **Compliance & Standards** | ISO 27001/27002, SOC 2, GDPR, HIPAA | 6+ years | Intermediate |
+
 **AWS & Terraform Expertise:** With **16 years of AWS experience** starting in 2010, I have extensive experience architecting and implementing complex AWS environments using Terraform as the primary Infrastructure as Code tool. My work includes:
 - Designing and deploying multi‑region, multi‑account architectures with VPC peering, Transit Gateway, site‑to‑site VPN, and AWS PrivateLink.
 - Developing modular, reusable Terraform modules for consistent, compliant deployments across development, staging, and production.
