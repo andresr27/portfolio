@@ -2,17 +2,17 @@
 
 Dear Oowlish Hiring Team,
 
-I am writing to express my interest in the Senior Cloud Infrastructure Engineer position at Oowlish. With over five years of hands‑on experience designing, building, and operating scalable, secure cloud infrastructure across AWS. I am confident that my background aligns perfectly with your need for an engineer who can lead cloud infrastructure projects, such as the integration between AWS and Heroku to improve application and feature delivery.
+I am writing to express my interest in the Senior Cloud Infrastructure Engineer position at Oowlish. With over five years of hands‑on experience designing, building, and operating scalable, secure cloud infrastructure across AWS, I am confident that my background aligns perfectly with your need for an engineer who can lead complex infrastructure projects, with a strong focus on AWS networking and Terraform‑based infrastructure management.
 
 ## Professional Experience Alignment
 
-**Cloud Infrastructure & Platform Ownership:** Throughout my career, I have taken full ownership of cloud foundations, networking, automation, and operational excellence in hybrid IaaS/PaaS environments. My work has consistently focused on building reliable, cost‑efficient systems that support production workloads at scale—exactly the kind of infrastructure‑first mindset your role requires.
+**Cloud Infrastructure & Networking Focus:** Throughout my career, I have taken full ownership of cloud foundations, networking, automation, and operational excellence in hybrid environments. My work has consistently focused on building reliable, secure, and cost‑efficient systems that support production workloads at scale—with a particular emphasis on robust network architectures that meet complex business requirements.
 
 **AWS Expertise & Infrastructure Management:** I possess deep, hands‑on experience with the entire AWS service stack (EC2, VPC, ELB/ALB/NLB, S3, RDS, IAM, Lambda, CloudWatch, CloudTrail) and have implemented comprehensive monitoring and alerting solutions using tools like Prometheus, Grafana, and AWS-native services. My focus is on building observable, maintainable infrastructure that provides real‑time visibility into system health and performance.
 
-**Heroku Experience:** While my direct experience with Heroku is minimal, I have a strong understanding of platform‑as‑a‑service concepts and am confident that my extensive AWS and infrastructure‑as‑code background will allow me to quickly adapt to Heroku environments. I do not anticipate this impacting my ability to contribute effectively to your infrastructure projects.
+**Advanced AWS Networking:** I have extensive hands‑on experience designing and implementing complex AWS networking solutions, including site‑to‑site VPN, VPC peering, Transit Gateway, Route 53 DNS management, HA proxy configurations, AWS PrivateLink, firewall rules (security groups, NACLs, and third‑party solutions), and advanced routing. My focus is on building secure, high‑performance network architectures that meet stringent business requirements.
 
-**Infrastructure as Code & Automation:** I specialize in Terraform‑based Infrastructure as Code implementations, using modular, reusable code to manage large, distributed systems. My approach ensures consistency across development, staging, and production environments while enabling rapid iteration and adherence to security standards. I have extensive experience with Terraform modules, state management, and integrating Terraform with CI/CD pipelines for automated infrastructure deployment.
+**Infrastructure as Code & Automation:** I specialize in Terraform‑based Infrastructure as Code implementations, using modular, reusable code to manage large, distributed systems. My approach ensures consistency across development, staging, and production environments while enabling rapid iteration and adherence to security standards. I have extensive experience with Terraform modules, state management, and integrating Terraform with CI/CD pipelines for automated infrastructure deployment, particularly for complex networking and security configurations.
 
 ## Technical Requirements Match
 
@@ -20,8 +20,8 @@ I am writing to express my interest in the Senior Cloud Infrastructure Engineer 
 - **Terraform / CloudFormation:** Extensive use of Terraform to provision and manage cloud resources, with a focus on maintainability, compliance, and modular design.
 - **Infrastructure Monitoring & Management:** Hands‑on experience with monitoring tools such as Prometheus, Grafana, Datadog, and AWS CloudWatch to ensure system reliability and performance.
 - **Kubernetes & Docker:** Hands‑on implementation of container platforms and orchestration where appropriate, including production‑ready configurations and rolling update strategies.
-- **Networking:** Solid knowledge of VPC design, routing, IP addressing, DNS, L4/L7 load balancing, VPNs, and private connectivity (AWS PrivateLink, VPC peering).
-- **Windows Services Stack:** Medium experience with Windows Server environments, Active Directory, and related services, which is sufficient for management and support tasks in hybrid environments.
+- **Networking:** Extensive experience with AWS networking services including VPC design, Transit Gateway, site‑to‑site VPN, VPC peering, Route 53 DNS, HA proxy, AWS PrivateLink, firewall configurations, and advanced routing. I have designed and implemented secure, scalable network architectures that support complex multi‑account and multi‑region environments.
+- **Windows Server Management & Bonus Areas:** I have practical experience with Windows Server management and patching, MS SQL Server administration, Microsoft Active Directory, and virtual desktop environments. While these are not my primary focus, I possess sufficient knowledge to manage and support these systems effectively in hybrid cloud scenarios.
 - **Scripting & Automation:** Proficient in Python and Bash for automating infrastructure tasks and building platform‑automation workflows.
 - **CI/CD Pipelines:** Experience implementing CI/CD pipelines that integrate infrastructure changes with application deployment processes.
 - **Security & Compliance:** Practical experience implementing security controls, access management, and compliance automation aligned with SOC 2 and ISO 27001 requirements.
