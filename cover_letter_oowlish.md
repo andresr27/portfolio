@@ -20,7 +20,7 @@ I am writing to express my interest in the Senior Cloud Infrastructure Engineer 
 - **Terraform:** Modular, compliant infrastructure provisioning.
 - **Networking:** VPC, Transit Gateway, VPN, PrivateLink, Route 53, and firewall configurations.
 - **Scripting & Automation:** Python and Bash for infrastructure automation.
-- **CI/CD & Security:** Pipeline integration and compliance with SOC 2/ISO 27001.
+- **CI/CD & Security:** Pipeline integration and compliance with SOC 2/ISO 27001, plus hands‑on training in HIPAA and GDPR compliance from my roles at Biointellisense and Upwave.
 
 ## Why I’m a Strong Fit
 
