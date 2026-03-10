@@ -41,6 +41,34 @@ My ideal technology stack would be:
 
 That said, I am experienced with a wide variety of tools—too many to remember them all—some of which are listed below.
 
+### Years of Experience Summary
+
+| Technology/Skill | Approximate Years | Level of Expertise |
+|------------------|-------------------|---------------------|
+| **AWS** | 9 years (2017‑present) | Expert |
+| **Terraform** | 6 years (2020‑present) | Expert |
+| **Kubernetes** | 6 years (2020‑present) | Advanced |
+| **Python** | 12 years (2014‑present) | Advanced |
+| **Linux Administration** | 19 years (2007‑present) | Expert |
+| **CI/CD (GitHub Actions, Jenkins)** | 8 years (2018‑present) | Advanced |
+| **Docker/Containers** | 8 years (2018‑present) | Advanced |
+| **Infrastructure as Code** | 6 years (2020‑present) | Expert |
+| **Monitoring (Prometheus, Grafana, CloudWatch)** | 6 years (2020‑present) | Advanced |
+| **Networking (AWS VPC, VPN, Route53)** | 9 years (2017‑present) | Advanced |
+| **Ansible** | 8 years (2018‑present) | Intermediate |
+| **Git** | 12 years (2014‑present) | Advanced |
+| **Bash Scripting** | 19 years (2007‑present) | Expert |
+| **Windows Server** | 10 years (2007‑2017) | Intermediate (Management & Support) |
+| **SQL Databases (MySQL, PostgreSQL)** | 12 years (2014‑present) | Intermediate |
+| **NoSQL (DynamoDB, BigTable, Elasticsearch)** | 6 years (2020‑present) | Intermediate |
+| **Security & Compliance (ISO 27001, SOC 2, GDPR)** | 6 years (2020‑present) | Intermediate |
+| **Heroku** | <1 year | Basic (Quick to adapt) |
+| **Azure** | 7 years (2017‑present) | Intermediate |
+| **Google Cloud Platform** | 4 years (2020‑present) | Intermediate |
+| **OpenSearch/Elasticsearch** | 6 years (2020‑present) | Advanced |
+| **Data Pipelines (Kafka, Databricks)** | 4 years (2022‑present) | Intermediate |
+| **Agile/Scrum** | 11 years (2015‑present) | Advanced |
+
 ### Technical Skills
 
 | Category | Technologies |

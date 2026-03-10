@@ -3,6 +3,8 @@ I am writing to express my strong interest in the Senior Cloud Engineer position
 
 ## Core Strengths for This Role
 
+With over **9 years of AWS experience**, **6 years of Terraform expertise**, and **6 years of Kubernetes** hands‑on practice, I bring a depth of knowledge that directly aligns with the demands of a senior cloud engineering role.
+
 **AWS & Terraform Expertise:** I have extensive experience architecting and implementing complex AWS environments using Terraform as the primary Infrastructure as Code tool. My work includes:
 - Designing and deploying multi‑region, multi‑account architectures with VPC peering, Transit Gateway, site‑to‑site VPN, and AWS PrivateLink.
 - Developing modular, reusable Terraform modules for consistent, compliant deployments across development, staging, and production.
