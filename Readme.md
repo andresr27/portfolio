@@ -45,19 +45,17 @@ That said, I am experienced with a wide variety of tools—too many to remember 
 
 | Category | Technologies |
 |----------|-------------|
-| **Operating Systems** | Ubuntu, CentOS, SUSE, RedHat, Debian, Windows |
-| **Cloud Platforms** | AWS, Google Cloud, Azure, VCloud Director |
-| **IaC & Configuration Management** | Terraform, Ansible |
-| **Computing Clusters** | Kubernetes, Swarm, Hadoop, MapReduce |
-| **CI/CD Automation** | Kubernetes, Docker, Git, GitHub Actions, Jenkins, Bitbucket Pipelines |
-| **Monitoring & Observability** | OpenSearch, Grafana, Grafana Cloud, Datadog, CloudWatch, Prometheus, Data Prepper, OTEL, Fluent-bit, Fluentd, Logstash, Graylog, Syslog |
-| **Databases** | MySQL, MariaDB, SQLite, InfluxDB, PostgreSQL, DynamoDB, BigTable, Hive, Elasticsearch, Databricks, Superset, Metabase |
-| **Programming Languages** | Python, TypeScript, C, Assembler, Bash, Java, JavaScript, LaTeX, R |
-| **Data Analysis** | OpenSearch, R, Elasticsearch, Kibana, Python, MATLAB, Tableau, Excel |
-| **Product Development** | Agile, Jira, Project Requirements, Planning and Management |
-| **Software Frameworks** | Spring Boot, Flask, JBoss, Laravel, Kivy, Bootstrap, Express |
-| **Libraries** | boto3, pandas, websocket, pyserial, ggplot2, refind, csv |
-| **Security** | Apache WAFs, DB and OS hardening, HIDS for Kubernetes with Elasticsearch, TWIGS, AWS Well-Architected Framework, CompTIA Security+ (in progress) |
+| **Cloud Platforms** | **AWS** (Expert), Google Cloud, Azure, VCloud Director |
+| **Infrastructure as Code** | **Terraform** (Expert), Ansible |
+| **Container Orchestration** | **Kubernetes** (EKS, AKS), Docker Swarm |
+| **CI/CD & Automation** | GitHub Actions, Jenkins, Bitbucket Pipelines, Git, Docker |
+| **Monitoring & Observability** | **Prometheus**, **Grafana**, **AWS CloudWatch**, OpenSearch/Elasticsearch, Datadog, Data Prepper, OTEL, Fluent-bit |
+| **Networking** | AWS VPC, Transit Gateway, VPN, Route 53, PrivateLink, Load Balancers (ALB/NLB), Firewall Configurations |
+| **Operating Systems** | Linux (Ubuntu, CentOS, RedHat), **Windows Server** (Medium experience for management & support) |
+| **Databases** | MySQL, PostgreSQL, DynamoDB, BigTable, Elasticsearch, Databricks |
+| **Programming/Scripting** | **Python**, **Bash**, TypeScript, Java, JavaScript |
+| **Security & Compliance** | AWS Well-Architected Framework, ISO 27001/27002, SOC 2, GDPR, HIPAA, CompTIA Security+ (in progress) |
+| **Additional Platforms** | Heroku (Minimal exposure – quick to adapt) |
 
 ## Experience
 
