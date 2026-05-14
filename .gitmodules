@@ -1,0 +1,3 @@
+[submodule "online_portfolio"]
+	path = online_portfolio
+	url = git@github.com:andresr27/online_portfolio.git

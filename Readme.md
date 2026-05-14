@@ -35,9 +35,9 @@
 My ideal technology stack would be:
 
 - Kubernetes for microservices and functions
-- Terraform for IaC
-- CI/CD with GitHub Actions
-- OpenSearch for observability
+  - Terraform for IaC
+  - CI/CD with GitHub Actions
+  - OpenSearch for observability
 
 That said, I am experienced with a wide variety of tools—too many to remember them all—some of which are listed below.
 
