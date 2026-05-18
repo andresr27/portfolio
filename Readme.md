@@ -34,72 +34,52 @@
 
 My ideal technology stack would be:
 
-- Kubernetes for microservices and functions
-  - Terraform for IaC
-  - CI/CD with GitHub Actions
-  - OpenSearch for observability
+  - Kubernetes for microservices and functions. I can also work with Lambda, ECS and other computing services
+  - Terraform for IaC is my expertise, but I have used Cloud Formations and Ansible to deploy infrastructure before.
+  - OpenSearch is one of the best tools for observability, but is not the most used. I also thorough knowledge of the Grafana/Prometheus Stack both open source and Cloud versions.
+  - AWS is by the Cloud services I've used the most, but I also have some experience in other clouds providers like Google Cloud and Azure.
+  - For application development I love the combination of LLM powered Python backend with the clean frontend provided by Next or Nuxt with their JS variants.
 
-That said, I am experienced with a wide variety of tools—too many to remember them all—some of which are listed below.
 
-### Years of Experience Summary
+### Quick Reference Table for Senior Cloud Engineer Roles
 
-| Technology/Skill | Approximate Years | Level of Expertise |
-|------------------|-------------------|---------------------|
-| **AWS** | 16 years (2010‑present) | Expert |
-| **Terraform** | 6 years (2020‑present) | Expert |
-| **Kubernetes** | 6 years (2020‑present) | Advanced |
-| **Python** | 12 years (2014‑present) | Advanced |
-| **Linux Administration** | 19 years (2007‑present) | Expert |
-| **CI/CD (GitHub Actions, Jenkins)** | 8 years (2018‑present) | Advanced |
-| **Docker/Containers** | 8 years (2018‑present) | Advanced |
-| **Infrastructure as Code** | 6 years (2020‑present) | Expert |
-| **Monitoring (Prometheus, Grafana, CloudWatch)** | 6 years (2020‑present) | Advanced |
-| **Networking (AWS VPC, VPN, Route53)** | 16 years (2010‑present) | Advanced |
-| **Ansible** | 8 years (2018‑present) | Intermediate |
-| **Git** | 12 years (2014‑present) | Advanced |
-| **Bash Scripting** | 19 years (2007‑present) | Expert |
-| **Windows Server** | 10 years (2007‑2017) | Intermediate (Management & Support) |
-| **SQL Databases (MySQL, PostgreSQL)** | 12 years (2014‑present) | Intermediate |
-| **NoSQL (DynamoDB, BigTable, Elasticsearch)** | 6 years (2020‑present) | Intermediate |
-| **Security & Compliance (ISO 27001, SOC 2, GDPR)** | 6 years (2020‑present) | Intermediate |
-| **Heroku** | <1 year | Basic (Quick to adapt) |
-| **Azure** | 7 years (2017‑present) | Intermediate |
-| **Google Cloud Platform** | 4 years (2020‑present) | Intermediate |
-| **OpenSearch/Elasticsearch** | 6 years (2020‑present) | Advanced |
-| **Data Pipelines (Kafka, Databricks)** | 4 years (2022‑present) | Intermediate |
-| **Agile/Scrum** | 11 years (2015‑present) | Advanced |
+| Skill Area                     | Key Technologies                   | Years of Experience | Expertise Level |
+|--------------------------------|------------------------------------|-------------------|-----------------|
+| **AI Enginner**                | LLMs, LangChain, RAG, MCP          | Less than 1 years | Intermiate      |
+| **Cloud Platforms**            | AWS, Azure, GCP                    | 16 years (AWS)    | Expert          |
+| **Infrastructure as Code**     | Terraform, Ansible                 | 6+ years          | Expert          |
+| **Container Orchestration**    | Kubernetes, Docker, ECS            | 6+ years          | Advanced        |
+| **CI/CD & Automation**         | GitHub Actions, Jenkins, Bitbucket | 8+ years          | Advanced        |
+| **Monitoring & Observability** | Prometheus, Grafana, CloudWatch    | 6+ years          | Advanced        |
+| **Networking & Security**      | AWS VPC, VPN, WAF, Security Groups | 16 years          | Advanced        |
+| **Scripting & Development**    | Python, Bash, TypeScript           | 12+ years         | Advanced        |
+| **Database Management**        | MySQL, PostgreSQL, DynamoDB        | 12+ years         | Intermediate    |
+| **Compliance Standards**       | ISO 27001, SOC 2, GDPR, HIPAA      | 6+ years          | Intermediate    |
 
-### Quick Reference Table for Senior Cloud Engineer Role
-
-| Skill Area | Key Technologies | Years of Experience | Expertise Level |
-|------------|------------------|---------------------|-----------------|
-| **Cloud Platforms** | AWS, Azure, GCP | 16 years (AWS) | Expert |
-| **Infrastructure as Code** | Terraform, Ansible | 6+ years | Expert |
-| **Container Orchestration** | Kubernetes, Docker, ECS | 6+ years | Advanced |
-| **CI/CD & Automation** | GitHub Actions, Jenkins, Bitbucket | 8+ years | Advanced |
-| **Monitoring & Observability** | Prometheus, Grafana, CloudWatch | 6+ years | Advanced |
-| **Networking & Security** | AWS VPC, VPN, WAF, Security Groups | 16 years | Advanced |
-| **Scripting & Development** | Python, Bash, TypeScript | 12+ years | Advanced |
-| **Database Management** | MySQL, PostgreSQL, DynamoDB | 12+ years | Intermediate |
-| **Compliance Standards** | ISO 27001, SOC 2, GDPR, HIPAA | 6+ years | Intermediate |
-
-### Technical Skills
-
-| Category | Technologies |
-|----------|-------------|
-| **Cloud Platforms** | **AWS** (Expert), Google Cloud, Azure, VCloud Director |
-| **Infrastructure as Code** | **Terraform** (Expert), Ansible |
-| **Container Orchestration** | **Kubernetes** (EKS, AKS), Docker Swarm |
-| **CI/CD & Automation** | GitHub Actions, Jenkins, Bitbucket Pipelines, Git, Docker |
-| **Monitoring & Observability** | **Prometheus**, **Grafana**, **AWS CloudWatch**, OpenSearch/Elasticsearch, Datadog, Data Prepper, OTEL, Fluent-bit |
-| **Networking** | AWS VPC, Transit Gateway, VPN, Route 53, PrivateLink, Load Balancers (ALB/NLB), Firewall Configurations |
-| **Operating Systems** | Linux (Ubuntu, CentOS, RedHat), **Windows Server** (Medium experience for management & support) |
-| **Databases** | MySQL, PostgreSQL, DynamoDB, BigTable, Elasticsearch, Databricks |
-| **Programming/Scripting** | **Python**, **Bash**, TypeScript, Java, JavaScript |
-| **Security & Compliance** | AWS Well-Architected Framework, ISO 27001/27002, SOC 2, GDPR, HIPAA, CompTIA Security+ (in progress) |
-| **Additional Platforms** | Heroku (Minimal exposure – quick to adapt) |
 
 ## Experience
+
+### Fullstack AI Engineer.
+
+####[2026– AI Ops Engineer, Freelance, Montevideo, Uruguay.](https://www.windifferent.com/)
+- Invested 400+ hours of intensive study during the Andela bootcamp.
+  - Used Hugging to run and fine tune model from their hub.
+  - Understood the risk and benefits of AI and how to communicate it to stakeholders.
+  - Created applications using Agentic pattern using libraries like LangChain and CrewAI
+  - Deploy production ready, or close enough for a bootcamp, complex application that leverages RAG and MCP to increase response accuracy, on AWS using the following technologies:
+    - LangChain for multi-agent orchestration.
+    - S3 for low costs vectorization for RAG
+    - ECR service for long-running jobs like the research agent which uses MCP tools like Tavily to search the web.
+    - Lambda function for scalable worker agents
+    - API Gateway for Backend connectivity and routing.
+    - CloudFront frontend for efficient content distribution.
+- Currently involved in increasing security risk awareness when doing AI assisted development developing specific tools to aid in the matter.
+
+#### [2025–2026 Senior Data Scientist, Southpoint, Montevideo, Uruguay.](https://www.windifferent.com/)
+- Reviewed and created demo ETL pipelines using DOMO for a USA client in the hospitality industry. 
+- Used they transactional revenue data create segmented forecasts using different forecasting models like ARIMA and Prophet. 
+- Reviewed modeling accuracy using New customers and Occupancy data as regressors.
+
 
 ### DevOps Roles
 
@@ -411,3 +391,32 @@ As Technical Leader at Boxes, I led the development of interactive vending machi
 - Sports: Aikido and Surf
 - Food and Nutrition
 - History
+
+
+### Years of Experience Summary
+
+| Technology/Skill | Approximate Years | Level of Expertise |
+|------------------|-------------------|---------------------|
+| **AWS** | 16 years (2010‑present) | Expert |
+| **Terraform** | 6 years (2020‑present) | Expert |
+| **Kubernetes** | 6 years (2020‑present) | Advanced |
+| **Python** | 12 years (2014‑present) | Advanced |
+| **Linux Administration** | 19 years (2007‑present) | Expert |
+| **CI/CD (GitHub Actions, Jenkins)** | 8 years (2018‑present) | Advanced |
+| **Docker/Containers** | 8 years (2018‑present) | Advanced |
+| **Infrastructure as Code** | 6 years (2020‑present) | Expert |
+| **Monitoring (Prometheus, Grafana, CloudWatch)** | 6 years (2020‑present) | Advanced |
+| **Networking (AWS VPC, VPN, Route53)** | 16 years (2010‑present) | Advanced |
+| **Ansible** | 8 years (2018‑present) | Intermediate |
+| **Git** | 12 years (2014‑present) | Advanced |
+| **Bash Scripting** | 19 years (2007‑present) | Expert |
+| **Windows Server** | 10 years (2007‑2017) | Intermediate (Management & Support) |
+| **SQL Databases (MySQL, PostgreSQL)** | 12 years (2014‑present) | Intermediate |
+| **NoSQL (DynamoDB, BigTable, Elasticsearch)** | 6 years (2020‑present) | Intermediate |
+| **Security & Compliance (ISO 27001, SOC 2, GDPR)** | 6 years (2020‑present) | Intermediate |
+| **Heroku** | <1 year | Basic (Quick to adapt) |
+| **Azure** | 7 years (2017‑present) | Intermediate |
+| **Google Cloud Platform** | 4 years (2020‑present) | Intermediate |
+| **OpenSearch/Elasticsearch** | 6 years (2020‑present) | Advanced |
+| **Data Pipelines (Kafka, Databricks)** | 4 years (2022‑present) | Intermediate |
+| **Agile/Scrum** | 11 years (2015‑present) | Advanced |
