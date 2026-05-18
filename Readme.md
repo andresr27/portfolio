@@ -61,21 +61,22 @@ My ideal technology stack would be:
 
 ### Fullstack AI Engineer.
 
-####[2026– AI Ops Engineer, Freelance, Montevideo, Uruguay.](https://www.windifferent.com/)
-- Invested 400+ hours of intensive study during the Andela bootcamp.
-  - Used Hugging to run and fine tune model from their hub.
-  - Understood the risk and benefits of AI and how to communicate it to stakeholders.
-  - Created applications using Agentic pattern using libraries like LangChain and CrewAI
-  - Deploy production ready, or close enough for a bootcamp, complex application that leverages RAG and MCP to increase response accuracy, on AWS using the following technologies:
+#### [2026– AI Ops Engineer, Freelance, Montevideo, Uruguay.](andresrenaud.dev)
+- Invested 400+ hours of intensive study during the [Andela](https://www.andela.com/) bootcamp.
+  - Used HuggingFace to run and fine tune models from their hub. [See Hugginface Curriculum Assitant](https://huggingface.co/spaces/tovtoc/curriculum_assistant?logs=container)
+  - Understood the risk and benefits of AI and how to communicate it to stakeholders. 
+  - Created applications using Agentic patterns and workflows that can automate completes task like ingesting RAG data, research the web or create notifications for human in the loop action, using libraries like LangChain and CrewAI. [See Banksy: Your Personal Banking Assistant](https://github.com/andresr27/banksy)
+  - Deployed production ready, or close enough for a bootcamp, complex application that leverages RAG and MCP to increase response accuracy, on AWS using the following technologies:
     - LangChain for multi-agent orchestration.
-    - S3 for low costs vectorization for RAG
-    - ECR service for long-running jobs like the research agent which uses MCP tools like Tavily to search the web.
+    - S3 as low costs vectorization for RAG
+    - ECR service for long-running jobs like the research agent which uses MCP tools like Tavily to search the web and Telegram to ask for feedback.
     - Lambda function for scalable worker agents
     - API Gateway for Backend connectivity and routing.
     - CloudFront frontend for efficient content distribution.
-- Currently involved in increasing security risk awareness when doing AI assisted development developing specific tools to aid in the matter.
+-  [See this MCP Challange](https://github.com/andresr27/mcp_challange) live [on Vercel](https://support.wido.uy/) as an example of how to use MCP tools with LLMs in this case to respond question on the inventory of sameple company, the code can be found at []
+- Currently involved in increasing security risk awareness when doing AI assisted development developing specific tools to aid in this matter.
 
-#### [2025–2026 Senior Data Scientist, Southpoint, Montevideo, Uruguay.](https://www.windifferent.com/)
+#### [2025–2026 Senior Data Scientist, Southpoint, Montevideo, Uruguay.](https://https://www.southpointlabs.io//)
 - Reviewed and created demo ETL pipelines using DOMO for a USA client in the hospitality industry. 
 - Used they transactional revenue data create segmented forecasts using different forecasting models like ARIMA and Prophet. 
 - Reviewed modeling accuracy using New customers and Occupancy data as regressors.
